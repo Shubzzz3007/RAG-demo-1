@@ -1,0 +1,4 @@
+Patient: 53F with CKD stage 4, hypertension.
+Discharged on carvedilol 6.25 mg BID, metformin 500 mg BID, atorvastatin 40 mg nightly.
+Creatinine at discharge: 2.0 mg/dL. eGFR: 37 mL/min.
+Advised follow-up with endocrinology in 2 weeks and pulmonology in 6 weeks.

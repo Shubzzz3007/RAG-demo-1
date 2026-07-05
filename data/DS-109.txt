@@ -1,0 +1,4 @@
+Patient: 72F with atrial fibrillation, coronary artery disease.
+Discharged on albuterol 2 puffs q4h PRN, carvedilol 6.25 mg BID, apixaban 5 mg BID.
+Creatinine at discharge: 2.2 mg/dL. eGFR: 58 mL/min.
+Advised follow-up with endocrinology in 2 weeks and nephrology in 2 weeks.

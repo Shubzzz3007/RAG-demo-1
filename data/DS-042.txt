@@ -1,0 +1,4 @@
+Patient: 40M with type 2 diabetes mellitus, obesity.
+Discharged on furosemide 40 mg daily, lisinopril 10 mg daily, apixaban 5 mg BID.
+Creatinine at discharge: 1.9 mg/dL. eGFR: 42 mL/min.
+Advised follow-up with cardiology in 4 weeks and pulmonology in 4 weeks.

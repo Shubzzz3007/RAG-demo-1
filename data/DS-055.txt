@@ -1,0 +1,4 @@
+Patient: 76F with community-acquired pneumonia.
+Discharged on atorvastatin 40 mg nightly, metformin 500 mg BID, carvedilol 6.25 mg BID.
+Creatinine at discharge: 1.3 mg/dL. eGFR: 66 mL/min.
+Advised follow-up with primary care in 3 weeks and endocrinology in 6 weeks.

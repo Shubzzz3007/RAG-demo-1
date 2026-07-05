@@ -1,0 +1,4 @@
+Patient: 40M with CKD stage 4, hypertension.
+Discharged on carvedilol 6.25 mg BID, apixaban 5 mg BID, insulin glargine 20 units nightly.
+Creatinine at discharge: 1.5 mg/dL. eGFR: 61 mL/min.
+Advised follow-up with endocrinology in 3 weeks and nephrology in 3 weeks.

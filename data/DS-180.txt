@@ -1,0 +1,4 @@
+Patient: 85F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on apixaban 5 mg BID, empagliflozin 10 mg daily, furosemide 40 mg daily.
+Creatinine at discharge: 1.3 mg/dL. eGFR: 38 mL/min.
+Advised follow-up with internal medicine in 2 weeks and pulmonology in 3 weeks.

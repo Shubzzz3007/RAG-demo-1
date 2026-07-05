@@ -1,0 +1,4 @@
+Patient: 41F with type 2 diabetes mellitus, obesity.
+Discharged on lisinopril 10 mg daily, atorvastatin 40 mg nightly, carvedilol 6.25 mg BID.
+Creatinine at discharge: 1.2 mg/dL. eGFR: 46 mL/min.
+Advised follow-up with endocrinology in 1 week and cardiology in 4 weeks.

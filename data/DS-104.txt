@@ -1,0 +1,4 @@
+Patient: 66F with atrial fibrillation, coronary artery disease.
+Discharged on apixaban 5 mg BID, insulin glargine 20 units nightly, lisinopril 10 mg daily.
+Creatinine at discharge: 2.0 mg/dL. eGFR: 29 mL/min.
+Advised follow-up with nephrology in 1 week and pulmonology in 4 weeks.

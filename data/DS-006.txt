@@ -1,0 +1,4 @@
+Patient: 73M with type 1 diabetes mellitus.
+Discharged on albuterol 2 puffs q4h PRN, lisinopril 10 mg daily, furosemide 40 mg daily.
+Creatinine at discharge: 1.5 mg/dL. eGFR: 49 mL/min.
+Advised follow-up with primary care in 2 weeks and internal medicine in 4 weeks.

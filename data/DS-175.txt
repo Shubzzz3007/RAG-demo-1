@@ -1,0 +1,4 @@
+Patient: 68M with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on lisinopril 10 mg daily, metformin 500 mg BID, prednisone 20 mg daily.
+Creatinine at discharge: 2.4 mg/dL. eGFR: 74 mL/min.
+Advised follow-up with primary care in 4 weeks and internal medicine in 6 weeks.

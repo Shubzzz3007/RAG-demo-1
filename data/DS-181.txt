@@ -1,0 +1,4 @@
+Patient: 67F with heart failure with reduced ejection fraction.
+Discharged on furosemide 40 mg daily, carvedilol 6.25 mg BID, insulin glargine 20 units nightly.
+Creatinine at discharge: 1.6 mg/dL. eGFR: 57 mL/min.
+Advised follow-up with cardiology in 3 weeks and endocrinology in 3 weeks.

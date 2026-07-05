@@ -1,0 +1,4 @@
+Patient: 57M with community-acquired pneumonia.
+Discharged on apixaban 5 mg BID, metformin 500 mg BID, empagliflozin 10 mg daily.
+Creatinine at discharge: 1.6 mg/dL. eGFR: 45 mL/min.
+Advised follow-up with pulmonology in 3 weeks and cardiology in 3 weeks.

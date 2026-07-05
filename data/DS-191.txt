@@ -1,0 +1,4 @@
+Patient: 61F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on prednisone 20 mg daily, atorvastatin 40 mg nightly, insulin glargine 20 units nightly.
+Creatinine at discharge: 0.9 mg/dL. eGFR: 51 mL/min.
+Advised follow-up with primary care in 4 weeks and nephrology in 2 weeks.

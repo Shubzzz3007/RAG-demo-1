@@ -1,0 +1,4 @@
+Patient: 52M with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on albuterol 2 puffs q4h PRN, prednisone 20 mg daily, furosemide 40 mg daily.
+Creatinine at discharge: 1.8 mg/dL. eGFR: 69 mL/min.
+Advised follow-up with internal medicine in 1 week and pulmonology in 4 weeks.

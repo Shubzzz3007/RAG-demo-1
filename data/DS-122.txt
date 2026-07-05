@@ -1,0 +1,4 @@
+Patient: 58M with community-acquired pneumonia.
+Discharged on albuterol 2 puffs q4h PRN, carvedilol 6.25 mg BID, insulin glargine 20 units nightly.
+Creatinine at discharge: 0.9 mg/dL. eGFR: 35 mL/min.
+Advised follow-up with nephrology in 2 weeks and pulmonology in 5 weeks.

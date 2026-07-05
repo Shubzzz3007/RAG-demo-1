@@ -1,0 +1,4 @@
+Patient: 39M with heart failure with preserved ejection fraction.
+Discharged on empagliflozin 10 mg daily, lisinopril 10 mg daily, apixaban 5 mg BID.
+Creatinine at discharge: 1.0 mg/dL. eGFR: 87 mL/min.
+Advised follow-up with endocrinology in 1 week and internal medicine in 6 weeks.

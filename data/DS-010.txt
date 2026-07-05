@@ -1,0 +1,4 @@
+Patient: 51M with type 2 diabetes mellitus, obesity.
+Discharged on empagliflozin 10 mg daily, carvedilol 6.25 mg BID, albuterol 2 puffs q4h PRN.
+Creatinine at discharge: 2.0 mg/dL. eGFR: 58 mL/min.
+Advised follow-up with cardiology in 4 weeks and nephrology in 3 weeks.

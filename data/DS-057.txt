@@ -1,0 +1,4 @@
+Patient: 55M with heart failure with reduced ejection fraction.
+Discharged on albuterol 2 puffs q4h PRN, furosemide 40 mg daily, lisinopril 10 mg daily.
+Creatinine at discharge: 1.1 mg/dL. eGFR: 76 mL/min.
+Advised follow-up with nephrology in 3 weeks and internal medicine in 2 weeks.

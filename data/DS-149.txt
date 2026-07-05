@@ -1,0 +1,4 @@
+Patient: 61M with rheumatoid arthritis.
+Discharged on furosemide 40 mg daily, warfarin 5 mg daily, prednisone 20 mg daily.
+Creatinine at discharge: 2.0 mg/dL. eGFR: 39 mL/min.
+Advised follow-up with endocrinology in 4 weeks and pulmonology in 5 weeks.

@@ -1,0 +1,4 @@
+Patient: 73F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on insulin glargine 20 units nightly, lisinopril 10 mg daily, warfarin 5 mg daily.
+Creatinine at discharge: 1.2 mg/dL. eGFR: 39 mL/min.
+Advised follow-up with internal medicine in 2 weeks and nephrology in 2 weeks.

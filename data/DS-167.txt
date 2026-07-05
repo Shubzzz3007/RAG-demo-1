@@ -1,0 +1,4 @@
+Patient: 71M with heart failure with reduced ejection fraction.
+Discharged on warfarin 5 mg daily, insulin glargine 20 units nightly, atorvastatin 40 mg nightly.
+Creatinine at discharge: 2.4 mg/dL. eGFR: 84 mL/min.
+Advised follow-up with internal medicine in 2 weeks and pulmonology in 6 weeks.

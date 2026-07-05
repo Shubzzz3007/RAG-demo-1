@@ -1,0 +1,4 @@
+Patient: 35F with COPD exacerbation.
+Discharged on atorvastatin 40 mg nightly, carvedilol 6.25 mg BID, apixaban 5 mg BID.
+Creatinine at discharge: 2.3 mg/dL. eGFR: 73 mL/min.
+Advised follow-up with primary care in 4 weeks and endocrinology in 3 weeks.

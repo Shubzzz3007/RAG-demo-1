@@ -1,0 +1,4 @@
+Patient: 84F with type 1 diabetes mellitus.
+Discharged on warfarin 5 mg daily, albuterol 2 puffs q4h PRN, apixaban 5 mg BID.
+Creatinine at discharge: 1.9 mg/dL. eGFR: 83 mL/min.
+Advised follow-up with nephrology in 1 week and cardiology in 4 weeks.

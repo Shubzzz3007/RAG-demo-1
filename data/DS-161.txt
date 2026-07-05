@@ -1,0 +1,4 @@
+Patient: 49F with type 2 diabetes mellitus, obesity.
+Discharged on metformin 500 mg BID, methotrexate 10 mg weekly, insulin glargine 20 units nightly.
+Creatinine at discharge: 1.9 mg/dL. eGFR: 77 mL/min.
+Advised follow-up with nephrology in 3 weeks and pulmonology in 6 weeks.

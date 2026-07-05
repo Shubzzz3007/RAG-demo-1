@@ -1,0 +1,4 @@
+Patient: 65F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on apixaban 5 mg BID, carvedilol 6.25 mg BID, atorvastatin 40 mg nightly.
+Creatinine at discharge: 1.9 mg/dL. eGFR: 71 mL/min.
+Advised follow-up with cardiology in 3 weeks and primary care in 6 weeks.

@@ -1,0 +1,4 @@
+Patient: 69M with heart failure with preserved ejection fraction.
+Discharged on furosemide 40 mg daily, apixaban 5 mg BID, empagliflozin 10 mg daily.
+Creatinine at discharge: 2.3 mg/dL. eGFR: 19 mL/min.
+Advised follow-up with pulmonology in 2 weeks and primary care in 4 weeks.

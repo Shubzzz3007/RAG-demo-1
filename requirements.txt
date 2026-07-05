@@ -1,0 +1,31 @@
+# ============================================================
+# Explainable Clinical RAG — Python Dependencies
+# ============================================================
+
+# --- Azure OpenAI SDK (LLM + Embeddings) ---
+openai>=1.30.0
+
+# --- Environment variable management ---
+python-dotenv>=1.0.0
+
+# --- Vector database ---
+faiss-cpu>=1.7.4
+
+# --- Cross-encoder reranking (Phase 8) ---
+sentence-transformers>=3.0.0
+
+# --- Streamlit UI (Phase 10) ---
+streamlit>=1.35.0
+
+# --- Data handling ---
+numpy>=1.26.0
+pandas>=2.1.0
+
+# --- Progress bars ---
+tqdm>=4.66.0
+
+# --- Scikit-learn (cosine similarity for MMR) ---
+scikit-learn>=1.4.0
+
+# --- Serialization (for chunks) ---
+# pickle is built-in, no extra dependency needed

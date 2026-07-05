@@ -1,0 +1,4 @@
+Patient: 41F with heart failure with reduced ejection fraction.
+Discharged on empagliflozin 10 mg daily, prednisone 20 mg daily, carvedilol 6.25 mg BID.
+Creatinine at discharge: 2.1 mg/dL. eGFR: 87 mL/min.
+Advised follow-up with cardiology in 4 weeks and nephrology in 4 weeks.

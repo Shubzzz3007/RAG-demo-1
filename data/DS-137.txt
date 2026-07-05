@@ -1,0 +1,4 @@
+Patient: 50M with CKD stage 4, hypertension.
+Discharged on metformin 500 mg BID, furosemide 40 mg daily, atorvastatin 40 mg nightly.
+Creatinine at discharge: 1.6 mg/dL. eGFR: 86 mL/min.
+Advised follow-up with cardiology in 3 weeks and nephrology in 5 weeks.

@@ -1,0 +1,4 @@
+Patient: 71F with rheumatoid arthritis.
+Discharged on insulin glargine 20 units nightly, lisinopril 10 mg daily, warfarin 5 mg daily.
+Creatinine at discharge: 1.2 mg/dL. eGFR: 65 mL/min.
+Advised follow-up with endocrinology in 4 weeks and nephrology in 4 weeks.

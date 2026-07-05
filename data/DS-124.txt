@@ -1,0 +1,4 @@
+Patient: 88F with type 1 diabetes mellitus.
+Discharged on furosemide 40 mg daily, empagliflozin 10 mg daily, metformin 500 mg BID.
+Creatinine at discharge: 1.3 mg/dL. eGFR: 75 mL/min.
+Advised follow-up with primary care in 4 weeks and endocrinology in 5 weeks.

@@ -1,0 +1,4 @@
+Patient: 88F with heart failure with reduced ejection fraction.
+Discharged on albuterol 2 puffs q4h PRN, atorvastatin 40 mg nightly, lisinopril 10 mg daily.
+Creatinine at discharge: 1.2 mg/dL. eGFR: 24 mL/min.
+Advised follow-up with primary care in 2 weeks and nephrology in 4 weeks.

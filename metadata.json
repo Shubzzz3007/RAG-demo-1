@@ -1,0 +1,5441 @@
+[
+  {
+    "doc_id": "DS-110",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-110",
+    "date": "2026-02-25",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-017",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-017",
+    "date": "2026-06-11",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-096",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "patient_id": "P-096",
+    "date": "2026-06-21",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-170",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-170",
+    "date": "2026-05-08",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "buried_answer"
+  },
+  {
+    "doc_id": "DS-135",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "patient_id": "P-135",
+    "date": "2026-05-02",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-072",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "patient_id": "P-072",
+    "date": "2026-02-20",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-021",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-021",
+    "date": "2026-01-28",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-152",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-152",
+    "date": "2026-06-20",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "similar_disease"
+  },
+  {
+    "doc_id": "DS-117",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "patient_id": "P-117",
+    "date": "2026-05-12",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-181",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-181",
+    "date": "2026-02-05",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-050",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-050",
+    "date": "2026-01-17",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-060",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-060",
+    "date": "2026-05-25",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-122",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-122",
+    "date": "2026-01-08",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-041",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-041",
+    "date": "2026-03-11",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-143",
+    "doc_type": "discharge_summary",
+    "specialty": "pulmonology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "patient_id": "P-143",
+    "date": "2026-06-10",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-039",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-039",
+    "date": "2026-04-05",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-149",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-149",
+    "date": "2026-03-16",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-103",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-103",
+    "date": "2026-03-15",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-027",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "patient_id": "P-027",
+    "date": "2026-01-04",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-191",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-191",
+    "date": "2026-06-08",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-185",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-185",
+    "date": "2026-05-27",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-188",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-188",
+    "date": "2026-03-21",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-147",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-147",
+    "date": "2026-03-17",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-160",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-160",
+    "date": "2026-03-18",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "DS-104",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "patient_id": "P-104",
+    "date": "2026-06-22",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-058",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-058",
+    "date": "2026-06-28",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-193",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-193",
+    "date": "2026-03-09",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-074",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-074",
+    "date": "2026-06-08",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-043",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "patient_id": "P-043",
+    "date": "2026-03-25",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-029",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-029",
+    "date": "2026-02-26",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-034",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-034",
+    "date": "2026-05-11",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-075",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-075",
+    "date": "2026-02-17",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-198",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-198",
+    "date": "2026-03-06",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-111",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-111",
+    "date": "2026-02-15",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-022",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "patient_id": "P-022",
+    "date": "2026-01-14",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-100",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-100",
+    "date": "2026-05-08",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-032",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-032",
+    "date": "2026-02-19",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-047",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-047",
+    "date": "2026-02-27",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-194",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-194",
+    "date": "2026-01-05",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-136",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-136",
+    "date": "2026-03-21",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-182",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-182",
+    "date": "2026-01-14",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-166",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "patient_id": "P-166",
+    "date": "2026-01-01",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "overlapping_concepts"
+  },
+  {
+    "doc_id": "DS-176",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-176",
+    "date": "2026-02-03",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "conflicting_evidence"
+  },
+  {
+    "doc_id": "DS-150",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-150",
+    "date": "2026-05-27",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-090",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-090",
+    "date": "2026-04-09",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-061",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "patient_id": "P-061",
+    "date": "2026-05-02",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-052",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-052",
+    "date": "2026-04-19",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-077",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-077",
+    "date": "2026-01-20",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-180",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-180",
+    "date": "2026-03-28",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "conflicting_evidence"
+  },
+  {
+    "doc_id": "DS-064",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-064",
+    "date": "2026-02-26",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-042",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-042",
+    "date": "2026-05-15",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-089",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "patient_id": "P-089",
+    "date": "2026-04-09",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-084",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-084",
+    "date": "2026-02-05",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-129",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-129",
+    "date": "2026-02-03",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-158",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-158",
+    "date": "2026-05-16",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "DS-015",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-015",
+    "date": "2026-01-17",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-045",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "patient_id": "P-045",
+    "date": "2026-06-14",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-016",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-016",
+    "date": "2026-04-07",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-183",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-183",
+    "date": "2026-01-17",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-113",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-113",
+    "date": "2026-06-07",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-159",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-159",
+    "date": "2026-04-11",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "DS-124",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-124",
+    "date": "2026-05-01",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-006",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-006",
+    "date": "2026-01-08",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-146",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-146",
+    "date": "2026-04-16",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-035",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-035",
+    "date": "2026-06-13",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-046",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "patient_id": "P-046",
+    "date": "2026-04-09",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-033",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-033",
+    "date": "2026-05-07",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-025",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-025",
+    "date": "2026-01-04",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-179",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-179",
+    "date": "2026-06-22",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "conflicting_evidence"
+  },
+  {
+    "doc_id": "DS-174",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-174",
+    "date": "2026-02-18",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "buried_answer"
+  },
+  {
+    "doc_id": "DS-153",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-153",
+    "date": "2026-01-02",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "similar_disease"
+  },
+  {
+    "doc_id": "DS-013",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-013",
+    "date": "2026-05-25",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-200",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-200",
+    "date": "2026-01-19",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-023",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-023",
+    "date": "2026-01-01",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-187",
+    "doc_type": "discharge_summary",
+    "specialty": "pulmonology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "patient_id": "P-187",
+    "date": "2026-06-10",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-099",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-099",
+    "date": "2026-03-12",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-094",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-094",
+    "date": "2026-06-01",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-037",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-037",
+    "date": "2026-02-05",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-127",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "patient_id": "P-127",
+    "date": "2026-05-18",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-167",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-167",
+    "date": "2026-04-09",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "overlapping_concepts"
+  },
+  {
+    "doc_id": "DS-178",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-178",
+    "date": "2026-02-14",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "conflicting_evidence"
+  },
+  {
+    "doc_id": "DS-088",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-088",
+    "date": "2026-02-18",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-101",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "patient_id": "P-101",
+    "date": "2026-02-19",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-116",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-116",
+    "date": "2026-06-23",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-071",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-071",
+    "date": "2026-06-27",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-199",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-199",
+    "date": "2026-06-12",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-115",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-115",
+    "date": "2026-01-11",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-003",
+    "doc_type": "discharge_summary",
+    "specialty": "pulmonology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "patient_id": "P-003",
+    "date": "2026-06-15",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-125",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-125",
+    "date": "2026-03-04",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-141",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-141",
+    "date": "2026-06-17",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-197",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-197",
+    "date": "2026-02-03",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-165",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "patient_id": "P-165",
+    "date": "2026-06-19",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "overlapping_concepts"
+  },
+  {
+    "doc_id": "DS-112",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-112",
+    "date": "2026-04-02",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-157",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-157",
+    "date": "2026-06-04",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "DS-080",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "patient_id": "P-080",
+    "date": "2026-03-22",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-119",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-119",
+    "date": "2026-01-14",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-048",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-048",
+    "date": "2026-02-20",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-140",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-140",
+    "date": "2026-03-13",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-065",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-065",
+    "date": "2026-01-20",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-028",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-028",
+    "date": "2026-03-26",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-002",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-002",
+    "date": "2026-06-14",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-020",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "patient_id": "P-020",
+    "date": "2026-02-10",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-130",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-130",
+    "date": "2026-04-09",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-009",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-009",
+    "date": "2026-05-15",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-030",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "patient_id": "P-030",
+    "date": "2026-01-28",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-154",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-154",
+    "date": "2026-04-20",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "similar_disease"
+  },
+  {
+    "doc_id": "DS-018",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-018",
+    "date": "2026-04-26",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-156",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-156",
+    "date": "2026-05-08",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "similar_disease"
+  },
+  {
+    "doc_id": "DS-001",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-001",
+    "date": "2026-01-03",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-139",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-139",
+    "date": "2026-02-26",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-007",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-007",
+    "date": "2026-04-21",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-184",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-184",
+    "date": "2026-01-27",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-105",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-105",
+    "date": "2026-02-25",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-010",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-010",
+    "date": "2026-04-01",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-109",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "patient_id": "P-109",
+    "date": "2026-05-21",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-108",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "patient_id": "P-108",
+    "date": "2026-01-08",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-148",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-148",
+    "date": "2026-04-28",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-068",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-068",
+    "date": "2026-03-09",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-008",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-008",
+    "date": "2026-02-05",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-171",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-171",
+    "date": "2026-01-19",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "buried_answer"
+  },
+  {
+    "doc_id": "DS-133",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "patient_id": "P-133",
+    "date": "2026-06-15",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-114",
+    "doc_type": "discharge_summary",
+    "specialty": "pulmonology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "patient_id": "P-114",
+    "date": "2026-02-23",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-162",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-162",
+    "date": "2026-03-15",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "DS-024",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-024",
+    "date": "2026-03-06",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-138",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-138",
+    "date": "2026-06-12",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-070",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-070",
+    "date": "2026-06-20",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-163",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-163",
+    "date": "2026-05-24",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "overlapping_concepts"
+  },
+  {
+    "doc_id": "DS-036",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "patient_id": "P-036",
+    "date": "2026-04-15",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-131",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-131",
+    "date": "2026-04-24",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-091",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-091",
+    "date": "2026-05-07",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-044",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "patient_id": "P-044",
+    "date": "2026-03-22",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-118",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-118",
+    "date": "2026-01-10",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-134",
+    "doc_type": "discharge_summary",
+    "specialty": "pulmonology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "patient_id": "P-134",
+    "date": "2026-06-22",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-126",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-126",
+    "date": "2026-05-08",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-066",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-066",
+    "date": "2026-01-25",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-087",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-087",
+    "date": "2026-02-21",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-161",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-161",
+    "date": "2026-06-09",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "DS-177",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-177",
+    "date": "2026-02-25",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "conflicting_evidence"
+  },
+  {
+    "doc_id": "DS-169",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-169",
+    "date": "2026-03-11",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "buried_answer"
+  },
+  {
+    "doc_id": "DS-059",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-059",
+    "date": "2026-01-27",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-085",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-085",
+    "date": "2026-01-05",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-051",
+    "doc_type": "discharge_summary",
+    "specialty": "pulmonology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "patient_id": "P-051",
+    "date": "2026-06-17",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-040",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-040",
+    "date": "2026-03-25",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-076",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-076",
+    "date": "2026-01-16",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-107",
+    "doc_type": "discharge_summary",
+    "specialty": "pulmonology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "patient_id": "P-107",
+    "date": "2026-04-23",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-189",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-189",
+    "date": "2026-06-13",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-164",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "patient_id": "P-164",
+    "date": "2026-01-22",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "overlapping_concepts"
+  },
+  {
+    "doc_id": "DS-005",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-005",
+    "date": "2026-06-09",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-038",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-038",
+    "date": "2026-02-05",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-057",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-057",
+    "date": "2026-02-10",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-145",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-145",
+    "date": "2026-06-18",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-012",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-012",
+    "date": "2026-01-03",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-106",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-106",
+    "date": "2026-05-27",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-081",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-081",
+    "date": "2026-02-13",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-095",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-095",
+    "date": "2026-02-03",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-175",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-175",
+    "date": "2026-04-27",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "conflicting_evidence"
+  },
+  {
+    "doc_id": "DS-082",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-082",
+    "date": "2026-05-28",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-121",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-121",
+    "date": "2026-01-21",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-026",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-026",
+    "date": "2026-01-03",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-168",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "patient_id": "P-168",
+    "date": "2026-06-25",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "overlapping_concepts"
+  },
+  {
+    "doc_id": "DS-128",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-128",
+    "date": "2026-03-08",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-132",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-132",
+    "date": "2026-04-20",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-093",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-093",
+    "date": "2026-01-24",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-067",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "patient_id": "P-067",
+    "date": "2026-03-11",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-079",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-079",
+    "date": "2026-01-20",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-092",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-092",
+    "date": "2026-01-22",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-137",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-137",
+    "date": "2026-02-20",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-120",
+    "doc_type": "discharge_summary",
+    "specialty": "pulmonology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "patient_id": "P-120",
+    "date": "2026-04-27",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-098",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-098",
+    "date": "2026-02-18",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-073",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-073",
+    "date": "2026-05-19",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-083",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-083",
+    "date": "2026-06-21",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-142",
+    "doc_type": "discharge_summary",
+    "specialty": "pulmonology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "patient_id": "P-142",
+    "date": "2026-02-06",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-062",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-062",
+    "date": "2026-01-06",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-102",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "patient_id": "P-102",
+    "date": "2026-02-12",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-053",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-053",
+    "date": "2026-03-09",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-195",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-195",
+    "date": "2026-01-28",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-063",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-063",
+    "date": "2026-06-08",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-190",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-190",
+    "date": "2026-05-08",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-031",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-031",
+    "date": "2026-03-09",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-192",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "heart failure with reduced ejection fraction",
+      "CKD stage 3"
+    ],
+    "patient_id": "P-192",
+    "date": "2026-01-25",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-055",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-055",
+    "date": "2026-03-16",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-004",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-004",
+    "date": "2026-06-08",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-078",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-078",
+    "date": "2026-01-11",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-086",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-086",
+    "date": "2026-03-22",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-054",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-054",
+    "date": "2026-02-23",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-123",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "community-acquired pneumonia"
+    ],
+    "patient_id": "P-123",
+    "date": "2026-01-11",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-056",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-056",
+    "date": "2026-01-24",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-144",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-144",
+    "date": "2026-01-27",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-172",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-172",
+    "date": "2026-02-17",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "buried_answer"
+  },
+  {
+    "doc_id": "DS-186",
+    "doc_type": "discharge_summary",
+    "specialty": "pulmonology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "patient_id": "P-186",
+    "date": "2026-04-23",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-151",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-151",
+    "date": "2026-03-02",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "similar_disease"
+  },
+  {
+    "doc_id": "DS-049",
+    "doc_type": "discharge_summary",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "patient_id": "P-049",
+    "date": "2026-01-19",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-019",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-019",
+    "date": "2026-02-28",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-011",
+    "doc_type": "discharge_summary",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD stage 4",
+      "hypertension"
+    ],
+    "patient_id": "P-011",
+    "date": "2026-02-18",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-196",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "patient_id": "P-196",
+    "date": "2026-06-23",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "duplicate_chunk"
+  },
+  {
+    "doc_id": "DS-155",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-155",
+    "date": "2026-01-12",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "similar_disease"
+  },
+  {
+    "doc_id": "DS-173",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "patient_id": "P-173",
+    "date": "2026-05-02",
+    "source_priority": "patient_record",
+    "is_trap": true,
+    "trap_type": "buried_answer"
+  },
+  {
+    "doc_id": "DS-097",
+    "doc_type": "discharge_summary",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "obesity"
+    ],
+    "patient_id": "P-097",
+    "date": "2026-04-11",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-069",
+    "doc_type": "discharge_summary",
+    "specialty": "pulmonology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "patient_id": "P-069",
+    "date": "2026-04-21",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "DS-014",
+    "doc_type": "discharge_summary",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "patient_id": "P-014",
+    "date": "2026-03-01",
+    "source_priority": "patient_record"
+  },
+  {
+    "doc_id": "GL-002",
+    "doc_type": "guideline",
+    "specialty": "primary care",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "org": "ADA",
+    "date": "2026-12-03",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-056",
+    "doc_type": "guideline",
+    "specialty": "primary care",
+    "disease": [
+      "CKD"
+    ],
+    "org": "KDIGO",
+    "date": "2015-12-07",
+    "source_priority": "guideline",
+    "is_trap": true,
+    "trap_type": "outdated_guideline"
+  },
+  {
+    "doc_id": "GL-014",
+    "doc_type": "guideline",
+    "specialty": "endocrinology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-12-03",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-042",
+    "doc_type": "guideline",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "org": "ADA",
+    "date": "2026-05-01",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-052",
+    "doc_type": "guideline",
+    "specialty": "endocrinology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2014-07-09",
+    "source_priority": "guideline",
+    "is_trap": true,
+    "trap_type": "outdated_guideline"
+  },
+  {
+    "doc_id": "GL-020",
+    "doc_type": "guideline",
+    "specialty": "nephrology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-08-12",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-055",
+    "doc_type": "guideline",
+    "specialty": "primary care",
+    "disease": [
+      "CKD"
+    ],
+    "org": "KDIGO",
+    "date": "2018-09-01",
+    "source_priority": "guideline",
+    "is_trap": true,
+    "trap_type": "outdated_guideline"
+  },
+  {
+    "doc_id": "GL-030",
+    "doc_type": "guideline",
+    "specialty": "cardiology",
+    "disease": [
+      "CKD"
+    ],
+    "org": "KDIGO",
+    "date": "2026-12-18",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-040",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "org": "GOLD",
+    "date": "2026-10-20",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-043",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "org": "ADA",
+    "date": "2026-06-27",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-032",
+    "doc_type": "guideline",
+    "specialty": "endocrinology",
+    "disease": [
+      "CKD"
+    ],
+    "org": "KDIGO",
+    "date": "2026-11-13",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-037",
+    "doc_type": "guideline",
+    "specialty": "nephrology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "org": "GOLD",
+    "date": "2026-08-26",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-010",
+    "doc_type": "guideline",
+    "specialty": "nephrology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-09-13",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-036",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "org": "GOLD",
+    "date": "2026-05-14",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-057",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "org": "GOLD",
+    "date": "2018-05-27",
+    "source_priority": "guideline",
+    "is_trap": true,
+    "trap_type": "outdated_guideline"
+  },
+  {
+    "doc_id": "GL-021",
+    "doc_type": "guideline",
+    "specialty": "nephrology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-02-05",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-013",
+    "doc_type": "guideline",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-10-10",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-012",
+    "doc_type": "guideline",
+    "specialty": "internal medicine",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-11-13",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-015",
+    "doc_type": "guideline",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-05-05",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-047",
+    "doc_type": "guideline",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "org": "ADA",
+    "date": "2026-05-11",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-049",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "org": "ADA",
+    "date": "2014-03-13",
+    "source_priority": "guideline",
+    "is_trap": true,
+    "trap_type": "outdated_guideline"
+  },
+  {
+    "doc_id": "GL-019",
+    "doc_type": "guideline",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-02-01",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-018",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-06-12",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-034",
+    "doc_type": "guideline",
+    "specialty": "nephrology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "org": "GOLD",
+    "date": "2026-05-16",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-044",
+    "doc_type": "guideline",
+    "specialty": "internal medicine",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "org": "ADA",
+    "date": "2026-07-26",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-017",
+    "doc_type": "guideline",
+    "specialty": "primary care",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-03-24",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-008",
+    "doc_type": "guideline",
+    "specialty": "primary care",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "org": "ADA",
+    "date": "2026-05-26",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-009",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-08-08",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-053",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2014-02-19",
+    "source_priority": "guideline",
+    "is_trap": true,
+    "trap_type": "outdated_guideline"
+  },
+  {
+    "doc_id": "GL-001",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "org": "ADA",
+    "date": "2026-12-05",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-004",
+    "doc_type": "guideline",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "org": "ADA",
+    "date": "2026-02-14",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-059",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "org": "ADA",
+    "date": "2013-11-10",
+    "source_priority": "guideline",
+    "is_trap": true,
+    "trap_type": "outdated_guideline"
+  },
+  {
+    "doc_id": "GL-022",
+    "doc_type": "guideline",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-03-14",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-058",
+    "doc_type": "guideline",
+    "specialty": "primary care",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "org": "GOLD",
+    "date": "2012-07-22",
+    "source_priority": "guideline",
+    "is_trap": true,
+    "trap_type": "outdated_guideline"
+  },
+  {
+    "doc_id": "GL-048",
+    "doc_type": "guideline",
+    "specialty": "internal medicine",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "org": "ADA",
+    "date": "2026-12-07",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-011",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-03-22",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-023",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-09-18",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-016",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-12-26",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-007",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "org": "ADA",
+    "date": "2026-06-01",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-006",
+    "doc_type": "guideline",
+    "specialty": "internal medicine",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "org": "ADA",
+    "date": "2026-10-20",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-041",
+    "doc_type": "guideline",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "org": "ADA",
+    "date": "2026-08-04",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-054",
+    "doc_type": "guideline",
+    "specialty": "endocrinology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2016-09-06",
+    "source_priority": "guideline",
+    "is_trap": true,
+    "trap_type": "outdated_guideline"
+  },
+  {
+    "doc_id": "GL-060",
+    "doc_type": "guideline",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "org": "ADA",
+    "date": "2014-11-05",
+    "source_priority": "guideline",
+    "is_trap": true,
+    "trap_type": "outdated_guideline"
+  },
+  {
+    "doc_id": "GL-024",
+    "doc_type": "guideline",
+    "specialty": "internal medicine",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2026-07-04",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-003",
+    "doc_type": "guideline",
+    "specialty": "internal medicine",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "org": "ADA",
+    "date": "2026-12-12",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-050",
+    "doc_type": "guideline",
+    "specialty": "nephrology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "org": "ADA",
+    "date": "2014-12-23",
+    "source_priority": "guideline",
+    "is_trap": true,
+    "trap_type": "outdated_guideline"
+  },
+  {
+    "doc_id": "GL-027",
+    "doc_type": "guideline",
+    "specialty": "internal medicine",
+    "disease": [
+      "CKD"
+    ],
+    "org": "KDIGO",
+    "date": "2026-06-28",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-045",
+    "doc_type": "guideline",
+    "specialty": "nephrology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "org": "ADA",
+    "date": "2026-08-11",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-033",
+    "doc_type": "guideline",
+    "specialty": "endocrinology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "org": "GOLD",
+    "date": "2026-03-09",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-035",
+    "doc_type": "guideline",
+    "specialty": "endocrinology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "org": "GOLD",
+    "date": "2026-02-06",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-026",
+    "doc_type": "guideline",
+    "specialty": "internal medicine",
+    "disease": [
+      "CKD"
+    ],
+    "org": "KDIGO",
+    "date": "2026-02-20",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-038",
+    "doc_type": "guideline",
+    "specialty": "cardiology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "org": "GOLD",
+    "date": "2026-06-09",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-031",
+    "doc_type": "guideline",
+    "specialty": "endocrinology",
+    "disease": [
+      "CKD"
+    ],
+    "org": "KDIGO",
+    "date": "2026-10-17",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-039",
+    "doc_type": "guideline",
+    "specialty": "endocrinology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "org": "GOLD",
+    "date": "2026-12-21",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-029",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "CKD"
+    ],
+    "org": "KDIGO",
+    "date": "2026-07-25",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-005",
+    "doc_type": "guideline",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "org": "ADA",
+    "date": "2026-02-11",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-025",
+    "doc_type": "guideline",
+    "specialty": "cardiology",
+    "disease": [
+      "CKD"
+    ],
+    "org": "KDIGO",
+    "date": "2026-02-12",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-051",
+    "doc_type": "guideline",
+    "specialty": "primary care",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "org": "AHA",
+    "date": "2015-10-26",
+    "source_priority": "guideline",
+    "is_trap": true,
+    "trap_type": "outdated_guideline"
+  },
+  {
+    "doc_id": "GL-028",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "CKD"
+    ],
+    "org": "KDIGO",
+    "date": "2026-01-10",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "GL-046",
+    "doc_type": "guideline",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "org": "ADA",
+    "date": "2026-11-20",
+    "source_priority": "guideline"
+  },
+  {
+    "doc_id": "PM-033",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "30698108",
+    "date": "2024-12-15",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-181",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "34723173",
+    "date": "2024-05-08",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-127",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "39229497",
+    "date": "2024-04-04",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-019",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "31962077",
+    "date": "2024-03-12",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-130",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "31409947",
+    "date": "2024-10-19",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-002",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "38102153",
+    "date": "2024-06-16",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-079",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "39166336",
+    "date": "2024-11-06",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-129",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "32193037",
+    "date": "2024-04-27",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-041",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "39608908",
+    "date": "2024-05-28",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-043",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "32226183",
+    "date": "2024-04-05",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-094",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "37636951",
+    "date": "2024-09-12",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-152",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "31514267",
+    "date": "2024-01-08",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-188",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "39128919",
+    "date": "2024-07-06",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-148",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "32914404",
+    "date": "2024-03-08",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-154",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "33380011",
+    "date": "2024-03-11",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-057",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "36047102",
+    "date": "2024-05-03",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-011",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "33603680",
+    "date": "2024-04-09",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-064",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "31498726",
+    "date": "2024-12-26",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-092",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "31980663",
+    "date": "2024-01-11",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-173",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "37571346",
+    "date": "2024-02-26",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-075",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "36572491",
+    "date": "2024-05-21",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-158",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "35412383",
+    "date": "2024-03-06",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-024",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "35277776",
+    "date": "2024-08-20",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-098",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "30771442",
+    "date": "2024-08-12",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-081",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "33619565",
+    "date": "2024-01-02",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-128",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "32345338",
+    "date": "2024-02-01",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-131",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "30365746",
+    "date": "2024-02-07",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-132",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "31543145",
+    "date": "2024-06-04",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-067",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "38900451",
+    "date": "2024-10-01",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-022",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "39015728",
+    "date": "2024-12-21",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-133",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "30849559",
+    "date": "2024-03-19",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-095",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "39510771",
+    "date": "2024-03-12",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-144",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "34713268",
+    "date": "2024-01-26",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-168",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "34186600",
+    "date": "2024-12-03",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-086",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "37339797",
+    "date": "2024-12-28",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-116",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "32192921",
+    "date": "2024-04-10",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-121",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "32025626",
+    "date": "2024-09-12",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-014",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "38212178",
+    "date": "2024-09-21",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-137",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "34123584",
+    "date": "2024-11-10",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-030",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "34843084",
+    "date": "2024-03-25",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-194",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "37966231",
+    "date": "2024-10-08",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-115",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "39930363",
+    "date": "2024-10-02",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-070",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "32066235",
+    "date": "2024-10-24",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-117",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "36592651",
+    "date": "2024-12-27",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-166",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "35818508",
+    "date": "2024-06-06",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-101",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "31306728",
+    "date": "2024-10-12",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-046",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "31561871",
+    "date": "2024-07-17",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-020",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "36517332",
+    "date": "2024-07-20",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-054",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "32084353",
+    "date": "2024-03-15",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-017",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "34990296",
+    "date": "2024-10-19",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-015",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "36520284",
+    "date": "2024-10-13",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-157",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "36636992",
+    "date": "2024-10-04",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-191",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "39466486",
+    "date": "2024-01-05",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-182",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "36591805",
+    "date": "2024-10-18",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-093",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "38788815",
+    "date": "2024-02-09",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-042",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "36905438",
+    "date": "2024-01-09",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-179",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "31698824",
+    "date": "2024-06-07",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-171",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "38272543",
+    "date": "2024-07-12",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-001",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "35232651",
+    "date": "2024-06-15",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-044",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "36588425",
+    "date": "2024-08-05",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-062",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "30135267",
+    "date": "2024-12-11",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-112",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "30736524",
+    "date": "2024-04-28",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-056",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "35064462",
+    "date": "2024-03-28",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-003",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "37590804",
+    "date": "2024-06-03",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-053",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "31670586",
+    "date": "2024-11-26",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-140",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "38821696",
+    "date": "2024-04-21",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-027",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "38249791",
+    "date": "2024-07-23",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-136",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "34613428",
+    "date": "2024-05-15",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-184",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "34941719",
+    "date": "2024-11-21",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-176",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "31258331",
+    "date": "2024-09-03",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-189",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "36197531",
+    "date": "2024-03-15",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-124",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "35499465",
+    "date": "2024-03-03",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-050",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "37208215",
+    "date": "2024-04-16",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-090",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "38328426",
+    "date": "2024-06-17",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-159",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "38173859",
+    "date": "2024-11-11",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-012",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "31707116",
+    "date": "2024-09-06",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-034",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "31718262",
+    "date": "2024-12-27",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-123",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "32644347",
+    "date": "2024-11-10",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-175",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "35734590",
+    "date": "2024-03-13",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-162",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "34941179",
+    "date": "2024-03-06",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-161",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "39880943",
+    "date": "2024-03-13",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-076",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "38302838",
+    "date": "2024-07-04",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-153",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "38832340",
+    "date": "2024-08-01",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-110",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "35159172",
+    "date": "2024-02-07",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-058",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "32777050",
+    "date": "2024-01-13",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-139",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "36425930",
+    "date": "2024-03-14",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-063",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "32217531",
+    "date": "2024-08-03",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-097",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "38536665",
+    "date": "2024-01-02",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-031",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "38309978",
+    "date": "2024-09-17",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-111",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "38254874",
+    "date": "2024-01-05",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-088",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "30923227",
+    "date": "2024-05-22",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-016",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "35905327",
+    "date": "2024-08-20",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-082",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "34806467",
+    "date": "2024-11-23",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-051",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "34757902",
+    "date": "2024-06-18",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-119",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "32283577",
+    "date": "2024-10-04",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-060",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "31596917",
+    "date": "2024-01-07",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-048",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "30041491",
+    "date": "2024-12-03",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-036",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "37366370",
+    "date": "2024-02-25",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-185",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "31627170",
+    "date": "2024-01-07",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-120",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "32757754",
+    "date": "2024-08-15",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-047",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "36191986",
+    "date": "2024-08-16",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-007",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "39392706",
+    "date": "2024-07-15",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-141",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "36024901",
+    "date": "2024-08-18",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-005",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "31834801",
+    "date": "2024-11-26",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-032",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "31916069",
+    "date": "2024-05-25",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-197",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "37533636",
+    "date": "2024-03-06",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-195",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "31324645",
+    "date": "2024-07-28",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-135",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "37158234",
+    "date": "2024-03-12",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-025",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "30160783",
+    "date": "2024-08-05",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-186",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "34895783",
+    "date": "2024-02-16",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-190",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "37377620",
+    "date": "2024-08-09",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-073",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "34780177",
+    "date": "2024-12-01",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-113",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "36249378",
+    "date": "2024-08-24",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-169",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "31812519",
+    "date": "2024-12-01",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-109",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "30160974",
+    "date": "2024-06-01",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-198",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "32117049",
+    "date": "2024-01-14",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-200",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "34326615",
+    "date": "2024-06-24",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-052",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "38142618",
+    "date": "2024-06-22",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-065",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "35257165",
+    "date": "2024-06-10",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-091",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "36238933",
+    "date": "2024-03-24",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-040",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "39039036",
+    "date": "2024-03-11",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-009",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "30489765",
+    "date": "2024-12-20",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-021",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "36437584",
+    "date": "2024-07-06",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-155",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "30999183",
+    "date": "2024-01-05",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-066",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "32233823",
+    "date": "2024-11-22",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-008",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "33094587",
+    "date": "2024-03-21",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-170",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "37352113",
+    "date": "2024-12-14",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-149",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "36019382",
+    "date": "2024-10-01",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-167",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "35632941",
+    "date": "2024-08-01",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-105",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "36189439",
+    "date": "2024-04-10",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-055",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "37177281",
+    "date": "2024-04-23",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-172",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "38044494",
+    "date": "2024-10-21",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-049",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "36009980",
+    "date": "2024-02-26",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-199",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "37304686",
+    "date": "2024-04-27",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-183",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "30914439",
+    "date": "2024-06-01",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-178",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "32768193",
+    "date": "2024-10-14",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-083",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "36749095",
+    "date": "2024-02-21",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-114",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "31603516",
+    "date": "2024-09-05",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-077",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "39964488",
+    "date": "2024-02-17",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-035",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "30540736",
+    "date": "2024-08-09",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-059",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "33928281",
+    "date": "2024-07-21",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-174",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "30336852",
+    "date": "2024-06-09",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-126",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "32917016",
+    "date": "2024-01-13",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-072",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "34646746",
+    "date": "2024-11-03",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-080",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "30280001",
+    "date": "2024-10-03",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-078",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "35309530",
+    "date": "2024-03-13",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-087",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "34101689",
+    "date": "2024-02-14",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-006",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "34092180",
+    "date": "2024-09-06",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-096",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "31726457",
+    "date": "2024-10-22",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-069",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "37421969",
+    "date": "2024-04-03",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-164",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "35338793",
+    "date": "2024-10-08",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-013",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "33306357",
+    "date": "2024-08-04",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-061",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "32226333",
+    "date": "2024-10-08",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-085",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "38999133",
+    "date": "2024-06-13",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-196",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "39583480",
+    "date": "2024-09-26",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-163",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "39610573",
+    "date": "2024-07-28",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-103",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "31156393",
+    "date": "2024-08-28",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-165",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "32359604",
+    "date": "2024-06-24",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-037",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "39863726",
+    "date": "2024-12-12",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-104",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "35491198",
+    "date": "2024-02-18",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-193",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "31023137",
+    "date": "2024-07-27",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-045",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "36949543",
+    "date": "2024-07-15",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-010",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "39935520",
+    "date": "2024-07-13",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-122",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "35172545",
+    "date": "2024-08-09",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-156",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "38829762",
+    "date": "2024-06-03",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-147",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "30937991",
+    "date": "2024-04-19",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-125",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "36647878",
+    "date": "2024-09-02",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-099",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "33002466",
+    "date": "2024-01-18",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-068",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "35891952",
+    "date": "2024-12-07",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-106",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "34069884",
+    "date": "2024-08-12",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-089",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "30212482",
+    "date": "2024-12-05",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-138",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "39239022",
+    "date": "2024-08-02",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-074",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "38686388",
+    "date": "2024-10-17",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-177",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "38098979",
+    "date": "2024-12-01",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-145",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "35996728",
+    "date": "2024-10-08",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-028",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "32806047",
+    "date": "2024-02-19",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-026",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "39421783",
+    "date": "2024-09-21",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-150",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "39455747",
+    "date": "2024-03-19",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-187",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "36668395",
+    "date": "2024-08-16",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-146",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "34158351",
+    "date": "2024-11-08",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-038",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "32335975",
+    "date": "2024-04-27",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-039",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "39564260",
+    "date": "2024-06-18",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-107",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "39169742",
+    "date": "2024-04-05",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-029",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "34900455",
+    "date": "2024-01-09",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-108",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "30401147",
+    "date": "2024-04-18",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-192",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "35767862",
+    "date": "2024-09-14",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-151",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 1 diabetes mellitus"
+    ],
+    "pmid": "39095341",
+    "date": "2024-05-06",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-160",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "39428414",
+    "date": "2024-12-20",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-180",
+    "doc_type": "pubmed_abstract",
+    "specialty": "pulmonology",
+    "disease": [
+      "type 2 diabetes mellitus",
+      "CKD"
+    ],
+    "pmid": "39296463",
+    "date": "2024-12-24",
+    "source_priority": "literature",
+    "is_trap": true,
+    "trap_type": "similar_medication"
+  },
+  {
+    "doc_id": "PM-004",
+    "doc_type": "pubmed_abstract",
+    "specialty": "cardiology",
+    "disease": [
+      "CKD"
+    ],
+    "pmid": "31930810",
+    "date": "2024-01-28",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-118",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "COPD exacerbation"
+    ],
+    "pmid": "37596016",
+    "date": "2024-05-08",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-134",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "36626978",
+    "date": "2024-08-01",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-071",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "37203947",
+    "date": "2024-06-26",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-084",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "31402526",
+    "date": "2024-05-03",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-142",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "atrial fibrillation",
+      "coronary artery disease"
+    ],
+    "pmid": "39490050",
+    "date": "2024-09-11",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-102",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "30883692",
+    "date": "2024-03-08",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-143",
+    "doc_type": "pubmed_abstract",
+    "specialty": "nephrology",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "33016809",
+    "date": "2024-01-11",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-100",
+    "doc_type": "pubmed_abstract",
+    "specialty": "endocrinology",
+    "disease": [
+      "rheumatoid arthritis"
+    ],
+    "pmid": "35398941",
+    "date": "2024-04-14",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-023",
+    "doc_type": "pubmed_abstract",
+    "specialty": "internal medicine",
+    "disease": [
+      "heart failure with preserved ejection fraction"
+    ],
+    "pmid": "32799538",
+    "date": "2024-08-10",
+    "source_priority": "literature"
+  },
+  {
+    "doc_id": "PM-018",
+    "doc_type": "pubmed_abstract",
+    "specialty": "primary care",
+    "disease": [
+      "heart failure with reduced ejection fraction"
+    ],
+    "pmid": "32247270",
+    "date": "2024-06-04",
+    "source_priority": "literature"
+  }
+]

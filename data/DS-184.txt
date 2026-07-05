@@ -1,0 +1,4 @@
+Patient: 69M with rheumatoid arthritis.
+Discharged on albuterol 2 puffs q4h PRN, empagliflozin 10 mg daily, furosemide 40 mg daily.
+Creatinine at discharge: 1.7 mg/dL. eGFR: 89 mL/min.
+Advised follow-up with endocrinology in 3 weeks and primary care in 6 weeks.

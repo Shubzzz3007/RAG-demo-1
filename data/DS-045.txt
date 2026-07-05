@@ -1,0 +1,4 @@
+Patient: 81M with atrial fibrillation, coronary artery disease.
+Discharged on atorvastatin 40 mg nightly, furosemide 40 mg daily, albuterol 2 puffs q4h PRN.
+Creatinine at discharge: 0.8 mg/dL. eGFR: 65 mL/min.
+Advised follow-up with internal medicine in 1 week and primary care in 2 weeks.

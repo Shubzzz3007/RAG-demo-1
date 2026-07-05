@@ -1,0 +1,4 @@
+Patient: 82M with type 2 diabetes mellitus, obesity.
+Discharged on carvedilol 6.25 mg BID, insulin glargine 20 units nightly, apixaban 5 mg BID.
+Creatinine at discharge: 1.3 mg/dL. eGFR: 79 mL/min.
+Advised follow-up with nephrology in 3 weeks and cardiology in 4 weeks.

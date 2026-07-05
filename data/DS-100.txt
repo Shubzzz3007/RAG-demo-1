@@ -1,0 +1,4 @@
+Patient: 71M with type 1 diabetes mellitus.
+Discharged on furosemide 40 mg daily, atorvastatin 40 mg nightly, lisinopril 10 mg daily.
+Creatinine at discharge: 2.2 mg/dL. eGFR: 59 mL/min.
+Advised follow-up with internal medicine in 1 week and nephrology in 4 weeks.

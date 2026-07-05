@@ -1,0 +1,4 @@
+Patient: 83M with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on apixaban 5 mg BID, lisinopril 10 mg daily, furosemide 40 mg daily.
+Creatinine at discharge: 2.1 mg/dL. eGFR: 81 mL/min.
+Advised follow-up with pulmonology in 2 weeks and cardiology in 2 weeks.

@@ -1,0 +1,4 @@
+Patient: 50M with heart failure with preserved ejection fraction.
+Discharged on empagliflozin 10 mg daily, albuterol 2 puffs q4h PRN, lisinopril 10 mg daily.
+Creatinine at discharge: 1.8 mg/dL. eGFR: 21 mL/min.
+Advised follow-up with cardiology in 3 weeks and pulmonology in 5 weeks.

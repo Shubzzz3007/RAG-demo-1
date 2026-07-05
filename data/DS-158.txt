@@ -1,0 +1,4 @@
+Patient: 36F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on metformin 500 mg BID, methotrexate 10 mg weekly, warfarin 5 mg daily.
+Creatinine at discharge: 1.5 mg/dL. eGFR: 67 mL/min.
+Advised follow-up with primary care in 4 weeks and endocrinology in 6 weeks.

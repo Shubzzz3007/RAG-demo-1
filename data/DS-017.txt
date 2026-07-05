@@ -1,0 +1,4 @@
+Patient: 41F with type 1 diabetes mellitus.
+Discharged on warfarin 5 mg daily, apixaban 5 mg BID, prednisone 20 mg daily.
+Creatinine at discharge: 1.5 mg/dL. eGFR: 21 mL/min.
+Advised follow-up with primary care in 1 week and cardiology in 5 weeks.

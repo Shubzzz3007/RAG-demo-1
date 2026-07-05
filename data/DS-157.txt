@@ -1,0 +1,4 @@
+Patient: 38F with rheumatoid arthritis.
+Discharged on metformin 500 mg BID, methotrexate 10 mg weekly, furosemide 40 mg daily.
+Creatinine at discharge: 1.6 mg/dL. eGFR: 63 mL/min.
+Advised follow-up with endocrinology in 1 week and primary care in 6 weeks.

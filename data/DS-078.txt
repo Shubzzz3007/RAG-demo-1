@@ -1,0 +1,4 @@
+Patient: 50F with type 1 diabetes mellitus.
+Discharged on lisinopril 10 mg daily, carvedilol 6.25 mg BID, apixaban 5 mg BID.
+Creatinine at discharge: 2.4 mg/dL. eGFR: 27 mL/min.
+Advised follow-up with pulmonology in 3 weeks and endocrinology in 2 weeks.

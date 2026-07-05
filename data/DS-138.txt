@@ -1,0 +1,4 @@
+Patient: 79F with CKD stage 4, hypertension.
+Discharged on lisinopril 10 mg daily, carvedilol 6.25 mg BID, furosemide 40 mg daily.
+Creatinine at discharge: 2.2 mg/dL. eGFR: 72 mL/min.
+Advised follow-up with endocrinology in 1 week and pulmonology in 4 weeks.

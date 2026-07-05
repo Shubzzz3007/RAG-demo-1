@@ -1,0 +1,4 @@
+Patient: 73F with COPD exacerbation.
+Discharged on albuterol 2 puffs q4h PRN, furosemide 40 mg daily, metformin 500 mg BID.
+Creatinine at discharge: 1.5 mg/dL. eGFR: 58 mL/min.
+Advised follow-up with primary care in 2 weeks and cardiology in 2 weeks.

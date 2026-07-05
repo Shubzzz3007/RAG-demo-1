@@ -1,0 +1,4 @@
+Patient: 42F with COPD exacerbation.
+Discharged on albuterol 2 puffs q4h PRN, metformin 500 mg BID, empagliflozin 10 mg daily.
+Creatinine at discharge: 1.5 mg/dL. eGFR: 21 mL/min.
+Advised follow-up with endocrinology in 3 weeks and internal medicine in 6 weeks.

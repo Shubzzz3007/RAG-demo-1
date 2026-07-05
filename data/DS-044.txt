@@ -1,0 +1,4 @@
+Patient: 88F with atrial fibrillation, coronary artery disease.
+Discharged on albuterol 2 puffs q4h PRN, empagliflozin 10 mg daily, lisinopril 10 mg daily.
+Creatinine at discharge: 1.6 mg/dL. eGFR: 49 mL/min.
+Advised follow-up with pulmonology in 1 week and primary care in 5 weeks.

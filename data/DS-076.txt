@@ -1,0 +1,4 @@
+Patient: 56M with rheumatoid arthritis.
+Discharged on atorvastatin 40 mg nightly, carvedilol 6.25 mg BID, albuterol 2 puffs q4h PRN.
+Creatinine at discharge: 2.3 mg/dL. eGFR: 16 mL/min.
+Advised follow-up with primary care in 4 weeks and endocrinology in 3 weeks.

@@ -1,0 +1,4 @@
+Patient: 84F with type 1 diabetes mellitus.
+Discharged on furosemide 40 mg daily, metformin 500 mg BID, warfarin 5 mg daily.
+Creatinine at discharge: 1.7 mg/dL. eGFR: 37 mL/min.
+Advised follow-up with primary care in 4 weeks and pulmonology in 3 weeks.

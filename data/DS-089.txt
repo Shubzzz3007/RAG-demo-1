@@ -1,0 +1,4 @@
+Patient: 59F with heart failure with preserved ejection fraction.
+Discharged on warfarin 5 mg daily, albuterol 2 puffs q4h PRN, apixaban 5 mg BID.
+Creatinine at discharge: 1.7 mg/dL. eGFR: 34 mL/min.
+Advised follow-up with pulmonology in 4 weeks and cardiology in 6 weeks.

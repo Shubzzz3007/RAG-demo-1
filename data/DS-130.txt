@@ -1,0 +1,4 @@
+Patient: 37F with community-acquired pneumonia.
+Discharged on lisinopril 10 mg daily, metformin 500 mg BID, empagliflozin 10 mg daily.
+Creatinine at discharge: 2.2 mg/dL. eGFR: 55 mL/min.
+Advised follow-up with nephrology in 4 weeks and internal medicine in 6 weeks.

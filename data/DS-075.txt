@@ -1,0 +1,4 @@
+Patient: 59M with rheumatoid arthritis.
+Discharged on apixaban 5 mg BID, metformin 500 mg BID, warfarin 5 mg daily.
+Creatinine at discharge: 2.0 mg/dL. eGFR: 63 mL/min.
+Advised follow-up with pulmonology in 4 weeks and endocrinology in 2 weeks.

@@ -1,0 +1,4 @@
+Patient: 40F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on albuterol 2 puffs q4h PRN, atorvastatin 40 mg nightly, lisinopril 10 mg daily.
+Creatinine at discharge: 1.1 mg/dL. eGFR: 60 mL/min.
+Advised follow-up with cardiology in 3 weeks and primary care in 5 weeks.

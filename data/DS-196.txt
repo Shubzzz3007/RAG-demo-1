@@ -1,0 +1,4 @@
+Patient: 70F with type 1 diabetes mellitus.
+Discharged on insulin glargine 20 units nightly, empagliflozin 10 mg daily, furosemide 40 mg daily.
+Creatinine at discharge: 1.3 mg/dL. eGFR: 89 mL/min.
+Advised follow-up with primary care in 3 weeks and endocrinology in 4 weeks.

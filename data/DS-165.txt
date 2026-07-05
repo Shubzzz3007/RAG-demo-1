@@ -1,0 +1,4 @@
+Patient: 35M with heart failure with preserved ejection fraction.
+Discharged on apixaban 5 mg BID, atorvastatin 40 mg nightly, prednisone 20 mg daily.
+Creatinine at discharge: 1.8 mg/dL. eGFR: 51 mL/min.
+Advised follow-up with nephrology in 1 week and primary care in 2 weeks.

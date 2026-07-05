@@ -1,0 +1,4 @@
+Patient: 88F with community-acquired pneumonia.
+Discharged on prednisone 20 mg daily, albuterol 2 puffs q4h PRN, metformin 500 mg BID.
+Creatinine at discharge: 1.9 mg/dL. eGFR: 85 mL/min.
+Advised follow-up with nephrology in 2 weeks and cardiology in 4 weeks.

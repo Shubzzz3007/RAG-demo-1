@@ -1,0 +1,4 @@
+Patient: 68F with community-acquired pneumonia.
+Discharged on apixaban 5 mg BID, prednisone 20 mg daily, carvedilol 6.25 mg BID.
+Creatinine at discharge: 1.0 mg/dL. eGFR: 55 mL/min.
+Advised follow-up with primary care in 4 weeks and cardiology in 5 weeks.

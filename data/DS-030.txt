@@ -1,0 +1,4 @@
+Patient: 61M with heart failure with preserved ejection fraction.
+Discharged on furosemide 40 mg daily, warfarin 5 mg daily, apixaban 5 mg BID.
+Creatinine at discharge: 2.1 mg/dL. eGFR: 46 mL/min.
+Advised follow-up with nephrology in 1 week and endocrinology in 5 weeks.

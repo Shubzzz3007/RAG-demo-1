@@ -1,0 +1,4 @@
+Patient: 58F with heart failure with reduced ejection fraction.
+Discharged on atorvastatin 40 mg nightly, insulin glargine 20 units nightly, apixaban 5 mg BID.
+Creatinine at discharge: 1.6 mg/dL. eGFR: 68 mL/min.
+Advised follow-up with endocrinology in 2 weeks and primary care in 4 weeks.

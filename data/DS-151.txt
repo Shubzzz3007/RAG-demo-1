@@ -1,0 +1,4 @@
+Patient: 78F with type 2 diabetes mellitus, obesity.
+Discharged on insulin glargine 20 units nightly, albuterol 2 puffs q4h PRN, metformin 500 mg BID.
+Creatinine at discharge: 2.2 mg/dL. eGFR: 70 mL/min.
+Advised follow-up with endocrinology in 3 weeks and nephrology in 5 weeks.

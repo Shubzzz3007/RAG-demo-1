@@ -1,0 +1,4 @@
+Patient: 43M with COPD exacerbation.
+Discharged on furosemide 40 mg daily, apixaban 5 mg BID, albuterol 2 puffs q4h PRN.
+Creatinine at discharge: 2.3 mg/dL. eGFR: 22 mL/min.
+Advised follow-up with cardiology in 2 weeks and internal medicine in 4 weeks.

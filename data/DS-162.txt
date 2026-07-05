@@ -1,0 +1,4 @@
+Patient: 42F with type 2 diabetes mellitus, obesity.
+Discharged on metformin 500 mg BID, methotrexate 10 mg weekly, apixaban 5 mg BID.
+Creatinine at discharge: 2.1 mg/dL. eGFR: 33 mL/min.
+Advised follow-up with nephrology in 3 weeks and cardiology in 2 weeks.

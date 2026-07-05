@@ -1,0 +1,4 @@
+Patient: 59F with community-acquired pneumonia.
+Discharged on furosemide 40 mg daily, atorvastatin 40 mg nightly, prednisone 20 mg daily.
+Creatinine at discharge: 1.4 mg/dL. eGFR: 81 mL/min.
+Advised follow-up with nephrology in 4 weeks and cardiology in 2 weeks.

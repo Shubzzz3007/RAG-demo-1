@@ -1,0 +1,4 @@
+Patient: 50F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on empagliflozin 10 mg daily, prednisone 20 mg daily, atorvastatin 40 mg nightly.
+Creatinine at discharge: 0.9 mg/dL. eGFR: 78 mL/min.
+Advised follow-up with internal medicine in 1 week and primary care in 6 weeks.

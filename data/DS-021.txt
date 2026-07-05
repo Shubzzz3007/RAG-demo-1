@@ -1,0 +1,4 @@
+Patient: 38M with heart failure with reduced ejection fraction.
+Discharged on warfarin 5 mg daily, metformin 500 mg BID, prednisone 20 mg daily.
+Creatinine at discharge: 1.7 mg/dL. eGFR: 79 mL/min.
+Advised follow-up with internal medicine in 1 week and endocrinology in 6 weeks.

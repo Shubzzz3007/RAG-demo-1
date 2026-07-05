@@ -1,0 +1,4 @@
+Patient: 83M with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on insulin glargine 20 units nightly, warfarin 5 mg daily, metformin 500 mg BID.
+Creatinine at discharge: 2.2 mg/dL. eGFR: 57 mL/min.
+Advised follow-up with nephrology in 3 weeks and cardiology in 5 weeks.

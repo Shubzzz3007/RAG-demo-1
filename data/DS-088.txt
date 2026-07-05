@@ -1,0 +1,4 @@
+Patient: 75F with type 1 diabetes mellitus.
+Discharged on insulin glargine 20 units nightly, apixaban 5 mg BID, carvedilol 6.25 mg BID.
+Creatinine at discharge: 1.0 mg/dL. eGFR: 19 mL/min.
+Advised follow-up with nephrology in 1 week and pulmonology in 2 weeks.

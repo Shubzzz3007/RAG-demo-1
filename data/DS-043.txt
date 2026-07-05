@@ -1,0 +1,4 @@
+Patient: 38M with atrial fibrillation, coronary artery disease.
+Discharged on apixaban 5 mg BID, empagliflozin 10 mg daily, metformin 500 mg BID.
+Creatinine at discharge: 2.2 mg/dL. eGFR: 88 mL/min.
+Advised follow-up with pulmonology in 1 week and primary care in 4 weeks.

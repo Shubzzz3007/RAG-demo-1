@@ -1,0 +1,4 @@
+Patient: 82M with rheumatoid arthritis.
+Discharged on lisinopril 10 mg daily, empagliflozin 10 mg daily, methotrexate 10 mg weekly.
+Creatinine at discharge: 1.2 mg/dL. eGFR: 25 mL/min.
+Advised follow-up with endocrinology in 2 weeks and primary care in 6 weeks.

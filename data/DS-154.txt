@@ -1,0 +1,4 @@
+Patient: 43F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on atorvastatin 40 mg nightly, albuterol 2 puffs q4h PRN, empagliflozin 10 mg daily.
+Creatinine at discharge: 1.0 mg/dL. eGFR: 80 mL/min.
+Advised follow-up with endocrinology in 3 weeks and nephrology in 3 weeks.

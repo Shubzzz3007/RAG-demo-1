@@ -1,0 +1,4 @@
+Patient: 39F with COPD exacerbation.
+Discharged on metformin 500 mg BID, apixaban 5 mg BID, empagliflozin 10 mg daily.
+Creatinine at discharge: 1.5 mg/dL. eGFR: 24 mL/min.
+Advised follow-up with nephrology in 4 weeks and internal medicine in 6 weeks.

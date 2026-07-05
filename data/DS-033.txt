@@ -1,0 +1,4 @@
+Patient: 37M with CKD stage 4, hypertension.
+Discharged on prednisone 20 mg daily, apixaban 5 mg BID, warfarin 5 mg daily.
+Creatinine at discharge: 2.0 mg/dL. eGFR: 55 mL/min.
+Advised follow-up with pulmonology in 1 week and internal medicine in 5 weeks.

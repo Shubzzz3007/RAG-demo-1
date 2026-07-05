@@ -1,0 +1,4 @@
+Patient: 54F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on metformin 500 mg BID, prednisone 20 mg daily, warfarin 5 mg daily.
+Creatinine at discharge: 2.0 mg/dL. eGFR: 26 mL/min.
+Advised follow-up with nephrology in 4 weeks and primary care in 3 weeks.

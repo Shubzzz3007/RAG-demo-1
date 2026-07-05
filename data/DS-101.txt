@@ -1,0 +1,4 @@
+Patient: 70M with atrial fibrillation, coronary artery disease.
+Discharged on prednisone 20 mg daily, insulin glargine 20 units nightly, metformin 500 mg BID.
+Creatinine at discharge: 1.1 mg/dL. eGFR: 54 mL/min.
+Advised follow-up with nephrology in 1 week and primary care in 3 weeks.

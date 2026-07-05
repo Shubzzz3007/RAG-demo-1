@@ -1,0 +1,4 @@
+Patient: 87M with community-acquired pneumonia.
+Discharged on albuterol 2 puffs q4h PRN, furosemide 40 mg daily, prednisone 20 mg daily.
+Creatinine at discharge: 1.9 mg/dL. eGFR: 85 mL/min.
+Advised follow-up with endocrinology in 4 weeks and nephrology in 3 weeks.

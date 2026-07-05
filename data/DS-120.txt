@@ -1,0 +1,4 @@
+Patient: 78M with COPD exacerbation.
+Discharged on atorvastatin 40 mg nightly, prednisone 20 mg daily, insulin glargine 20 units nightly.
+Creatinine at discharge: 2.0 mg/dL. eGFR: 72 mL/min.
+Advised follow-up with endocrinology in 2 weeks and internal medicine in 4 weeks.

@@ -1,0 +1,4 @@
+Patient: 78M with type 1 diabetes mellitus.
+Discharged on apixaban 5 mg BID, prednisone 20 mg daily, insulin glargine 20 units nightly.
+Creatinine at discharge: 2.1 mg/dL. eGFR: 18 mL/min.
+Advised follow-up with internal medicine in 3 weeks and pulmonology in 6 weeks.

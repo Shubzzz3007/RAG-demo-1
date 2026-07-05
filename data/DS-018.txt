@@ -1,0 +1,4 @@
+Patient: 50M with type 1 diabetes mellitus.
+Discharged on lisinopril 10 mg daily, albuterol 2 puffs q4h PRN, atorvastatin 40 mg nightly.
+Creatinine at discharge: 1.0 mg/dL. eGFR: 38 mL/min.
+Advised follow-up with nephrology in 2 weeks and pulmonology in 2 weeks.

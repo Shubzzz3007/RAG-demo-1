@@ -1,0 +1,4 @@
+Patient: 77F with community-acquired pneumonia.
+Discharged on atorvastatin 40 mg nightly, prednisone 20 mg daily, albuterol 2 puffs q4h PRN.
+Creatinine at discharge: 1.5 mg/dL. eGFR: 85 mL/min.
+Advised follow-up with pulmonology in 4 weeks and endocrinology in 5 weeks.

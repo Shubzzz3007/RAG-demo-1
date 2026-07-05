@@ -1,0 +1,4 @@
+Patient: 44F with community-acquired pneumonia.
+Discharged on furosemide 40 mg daily, lisinopril 10 mg daily, albuterol 2 puffs q4h PRN.
+Creatinine at discharge: 1.7 mg/dL. eGFR: 89 mL/min.
+Advised follow-up with pulmonology in 4 weeks and internal medicine in 4 weeks.

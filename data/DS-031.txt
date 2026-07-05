@@ -1,0 +1,4 @@
+Patient: 49M with community-acquired pneumonia.
+Discharged on atorvastatin 40 mg nightly, warfarin 5 mg daily, insulin glargine 20 units nightly.
+Creatinine at discharge: 2.1 mg/dL. eGFR: 44 mL/min.
+Advised follow-up with endocrinology in 2 weeks and cardiology in 5 weeks.

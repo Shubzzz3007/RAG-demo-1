@@ -1,0 +1,4 @@
+Patient: 68F with type 2 diabetes mellitus, obesity.
+Discharged on apixaban 5 mg BID, albuterol 2 puffs q4h PRN, warfarin 5 mg daily.
+Creatinine at discharge: 1.4 mg/dL. eGFR: 73 mL/min.
+Advised follow-up with nephrology in 3 weeks and primary care in 3 weeks.

@@ -1,0 +1,4 @@
+Patient: 42F with type 2 diabetes mellitus, obesity.
+Discharged on carvedilol 6.25 mg BID, albuterol 2 puffs q4h PRN, insulin glargine 20 units nightly.
+Creatinine at discharge: 2.1 mg/dL. eGFR: 61 mL/min.
+Advised follow-up with internal medicine in 1 week and endocrinology in 2 weeks.

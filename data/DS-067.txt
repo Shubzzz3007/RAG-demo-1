@@ -1,0 +1,4 @@
+Patient: 65F with heart failure with preserved ejection fraction.
+Discharged on insulin glargine 20 units nightly, furosemide 40 mg daily, apixaban 5 mg BID.
+Creatinine at discharge: 1.8 mg/dL. eGFR: 77 mL/min.
+Advised follow-up with cardiology in 3 weeks and pulmonology in 5 weeks.

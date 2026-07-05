@@ -1,0 +1,4 @@
+Patient: 40M with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on empagliflozin 10 mg daily, prednisone 20 mg daily, insulin glargine 20 units nightly.
+Creatinine at discharge: 1.8 mg/dL. eGFR: 88 mL/min.
+Advised follow-up with pulmonology in 1 week and internal medicine in 5 weeks.

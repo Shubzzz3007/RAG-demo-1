@@ -1,0 +1,4 @@
+Patient: 46F with type 1 diabetes mellitus.
+Discharged on atorvastatin 40 mg nightly, prednisone 20 mg daily, empagliflozin 10 mg daily.
+Creatinine at discharge: 1.9 mg/dL. eGFR: 87 mL/min.
+Advised follow-up with primary care in 3 weeks and internal medicine in 4 weeks.

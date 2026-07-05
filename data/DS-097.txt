@@ -1,0 +1,4 @@
+Patient: 81M with type 2 diabetes mellitus, obesity.
+Discharged on apixaban 5 mg BID, atorvastatin 40 mg nightly, lisinopril 10 mg daily.
+Creatinine at discharge: 1.5 mg/dL. eGFR: 73 mL/min.
+Advised follow-up with pulmonology in 1 week and primary care in 4 weeks.

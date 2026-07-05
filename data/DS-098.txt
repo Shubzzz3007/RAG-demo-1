@@ -1,0 +1,4 @@
+Patient: 58M with CKD stage 4, hypertension.
+Discharged on empagliflozin 10 mg daily, atorvastatin 40 mg nightly, carvedilol 6.25 mg BID.
+Creatinine at discharge: 0.9 mg/dL. eGFR: 25 mL/min.
+Advised follow-up with cardiology in 1 week and pulmonology in 4 weeks.

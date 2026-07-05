@@ -1,0 +1,4 @@
+Patient: 74F with CKD stage 4, hypertension.
+Discharged on atorvastatin 40 mg nightly, apixaban 5 mg BID, insulin glargine 20 units nightly.
+Creatinine at discharge: 1.3 mg/dL. eGFR: 46 mL/min.
+Advised follow-up with cardiology in 4 weeks and nephrology in 3 weeks.

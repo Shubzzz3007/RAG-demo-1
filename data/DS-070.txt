@@ -1,0 +1,4 @@
+Patient: 83M with community-acquired pneumonia.
+Discharged on lisinopril 10 mg daily, insulin glargine 20 units nightly, albuterol 2 puffs q4h PRN.
+Creatinine at discharge: 1.0 mg/dL. eGFR: 51 mL/min.
+Advised follow-up with pulmonology in 1 week and primary care in 2 weeks.

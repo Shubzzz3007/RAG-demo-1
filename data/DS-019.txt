@@ -1,0 +1,4 @@
+Patient: 41M with type 2 diabetes mellitus, obesity.
+Discharged on empagliflozin 10 mg daily, albuterol 2 puffs q4h PRN, metformin 500 mg BID.
+Creatinine at discharge: 2.4 mg/dL. eGFR: 45 mL/min.
+Advised follow-up with endocrinology in 4 weeks and pulmonology in 5 weeks.

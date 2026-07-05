@@ -1,0 +1,4 @@
+Patient: 37F with CKD stage 4, hypertension.
+Discharged on metformin 500 mg BID, albuterol 2 puffs q4h PRN, prednisone 20 mg daily.
+Creatinine at discharge: 1.9 mg/dL. eGFR: 40 mL/min.
+Advised follow-up with nephrology in 1 week and pulmonology in 4 weeks.

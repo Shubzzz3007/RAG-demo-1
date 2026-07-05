@@ -1,0 +1,4 @@
+Patient: 74M with community-acquired pneumonia.
+Discharged on carvedilol 6.25 mg BID, albuterol 2 puffs q4h PRN, lisinopril 10 mg daily.
+Creatinine at discharge: 1.6 mg/dL. eGFR: 31 mL/min.
+Advised follow-up with nephrology in 2 weeks and cardiology in 4 weeks.

@@ -1,0 +1,4 @@
+Patient: 82F with heart failure with reduced ejection fraction.
+Discharged on lisinopril 10 mg daily, empagliflozin 10 mg daily, albuterol 2 puffs q4h PRN.
+Creatinine at discharge: 1.2 mg/dL. eGFR: 86 mL/min.
+Advised follow-up with primary care in 2 weeks and nephrology in 2 weeks.

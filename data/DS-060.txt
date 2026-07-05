@@ -1,0 +1,4 @@
+Patient: 60F with type 1 diabetes mellitus.
+Discharged on carvedilol 6.25 mg BID, prednisone 20 mg daily, metformin 500 mg BID.
+Creatinine at discharge: 1.0 mg/dL. eGFR: 87 mL/min.
+Advised follow-up with nephrology in 2 weeks and cardiology in 2 weeks.

@@ -1,0 +1,4 @@
+Patient: 45F with type 1 diabetes mellitus.
+Discharged on apixaban 5 mg BID, atorvastatin 40 mg nightly, insulin glargine 20 units nightly.
+Creatinine at discharge: 1.9 mg/dL. eGFR: 66 mL/min.
+Advised follow-up with internal medicine in 4 weeks and cardiology in 2 weeks.

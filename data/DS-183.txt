@@ -1,0 +1,4 @@
+Patient: 70M with rheumatoid arthritis.
+Discharged on prednisone 20 mg daily, lisinopril 10 mg daily, metformin 500 mg BID.
+Creatinine at discharge: 0.9 mg/dL. eGFR: 22 mL/min.
+Advised follow-up with endocrinology in 1 week and cardiology in 4 weeks.

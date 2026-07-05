@@ -1,0 +1,4 @@
+Patient: 36M with heart failure with preserved ejection fraction.
+Discharged on prednisone 20 mg daily, atorvastatin 40 mg nightly, metformin 500 mg BID.
+Creatinine at discharge: 1.0 mg/dL. eGFR: 45 mL/min.
+Advised follow-up with primary care in 3 weeks and nephrology in 5 weeks.

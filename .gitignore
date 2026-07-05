@@ -1,0 +1,8 @@
+.env
+rag_venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Microsoft Office temp files
+~$*

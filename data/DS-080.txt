@@ -1,0 +1,4 @@
+Patient: 74M with atrial fibrillation, coronary artery disease.
+Discharged on atorvastatin 40 mg nightly, prednisone 20 mg daily, furosemide 40 mg daily.
+Creatinine at discharge: 1.2 mg/dL. eGFR: 47 mL/min.
+Advised follow-up with pulmonology in 1 week and nephrology in 5 weeks.

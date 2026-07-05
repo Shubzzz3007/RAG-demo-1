@@ -1,0 +1,4 @@
+Patient: 86M with heart failure with preserved ejection fraction.
+Discharged on warfarin 5 mg daily, furosemide 40 mg daily, atorvastatin 40 mg nightly.
+Creatinine at discharge: 1.8 mg/dL. eGFR: 38 mL/min.
+Advised follow-up with cardiology in 3 weeks and nephrology in 6 weeks.

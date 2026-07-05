@@ -1,0 +1,4 @@
+Patient: 81F with CKD stage 4, hypertension.
+Discharged on prednisone 20 mg daily, empagliflozin 10 mg daily, carvedilol 6.25 mg BID.
+Creatinine at discharge: 2.2 mg/dL. eGFR: 34 mL/min.
+Advised follow-up with endocrinology in 1 week and internal medicine in 2 weeks.

@@ -1,0 +1,4 @@
+Patient: 43M with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on warfarin 5 mg daily, lisinopril 10 mg daily, empagliflozin 10 mg daily.
+Creatinine at discharge: 0.8 mg/dL. eGFR: 48 mL/min.
+Advised follow-up with cardiology in 4 weeks and endocrinology in 6 weeks.

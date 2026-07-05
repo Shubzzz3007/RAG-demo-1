@@ -1,0 +1,4 @@
+Patient: 81F with type 1 diabetes mellitus.
+Discharged on albuterol 2 puffs q4h PRN, insulin glargine 20 units nightly, apixaban 5 mg BID.
+Creatinine at discharge: 1.3 mg/dL. eGFR: 52 mL/min.
+Advised follow-up with internal medicine in 2 weeks and endocrinology in 5 weeks.

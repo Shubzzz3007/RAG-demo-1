@@ -1,0 +1,4 @@
+Patient: 65F with type 1 diabetes mellitus.
+Discharged on warfarin 5 mg daily, albuterol 2 puffs q4h PRN, carvedilol 6.25 mg BID.
+Creatinine at discharge: 1.5 mg/dL. eGFR: 43 mL/min.
+Advised follow-up with internal medicine in 3 weeks and cardiology in 5 weeks.

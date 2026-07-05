@@ -1,0 +1,4 @@
+Patient: 37M with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on atorvastatin 40 mg nightly, prednisone 20 mg daily, carvedilol 6.25 mg BID.
+Creatinine at discharge: 1.5 mg/dL. eGFR: 88 mL/min.
+Advised follow-up with endocrinology in 4 weeks and pulmonology in 5 weeks.

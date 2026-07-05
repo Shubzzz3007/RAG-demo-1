@@ -1,0 +1,4 @@
+Patient: 85M with CKD stage 4, hypertension.
+Discharged on apixaban 5 mg BID, carvedilol 6.25 mg BID, albuterol 2 puffs q4h PRN.
+Creatinine at discharge: 1.2 mg/dL. eGFR: 34 mL/min.
+Advised follow-up with nephrology in 1 week and endocrinology in 2 weeks.

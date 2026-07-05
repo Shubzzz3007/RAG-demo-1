@@ -1,0 +1,4 @@
+Patient: 77F with rheumatoid arthritis.
+Discharged on warfarin 5 mg daily, metformin 500 mg BID, atorvastatin 40 mg nightly.
+Creatinine at discharge: 2.2 mg/dL. eGFR: 38 mL/min.
+Advised follow-up with pulmonology in 3 weeks and endocrinology in 4 weeks.

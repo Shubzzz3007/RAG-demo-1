@@ -1,0 +1,4 @@
+Patient: 36F with community-acquired pneumonia.
+Discharged on albuterol 2 puffs q4h PRN, prednisone 20 mg daily, warfarin 5 mg daily.
+Creatinine at discharge: 1.5 mg/dL. eGFR: 85 mL/min.
+Advised follow-up with endocrinology in 1 week and internal medicine in 2 weeks.

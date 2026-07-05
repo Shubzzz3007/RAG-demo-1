@@ -1,0 +1,4 @@
+Patient: 57M with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on empagliflozin 10 mg daily, lisinopril 10 mg daily, carvedilol 6.25 mg BID.
+Creatinine at discharge: 1.4 mg/dL. eGFR: 86 mL/min.
+Advised follow-up with pulmonology in 2 weeks and internal medicine in 3 weeks.

@@ -1,0 +1,4 @@
+Patient: 88F with type 2 diabetes mellitus, obesity.
+Discharged on prednisone 20 mg daily, warfarin 5 mg daily, albuterol 2 puffs q4h PRN.
+Creatinine at discharge: 2.1 mg/dL. eGFR: 83 mL/min.
+Advised follow-up with pulmonology in 3 weeks and internal medicine in 5 weeks.

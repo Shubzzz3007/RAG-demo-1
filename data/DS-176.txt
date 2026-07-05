@@ -1,0 +1,4 @@
+Patient: 50F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on warfarin 5 mg daily, furosemide 40 mg daily, insulin glargine 20 units nightly.
+Creatinine at discharge: 1.1 mg/dL. eGFR: 29 mL/min.
+Advised follow-up with cardiology in 1 week and pulmonology in 3 weeks.

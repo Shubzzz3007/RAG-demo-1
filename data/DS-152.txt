@@ -1,0 +1,4 @@
+Patient: 38M with type 1 diabetes mellitus.
+Discharged on warfarin 5 mg daily, albuterol 2 puffs q4h PRN, insulin glargine 20 units nightly.
+Creatinine at discharge: 0.9 mg/dL. eGFR: 79 mL/min.
+Advised follow-up with pulmonology in 3 weeks and internal medicine in 6 weeks.

@@ -1,0 +1,4 @@
+Patient: 58F with type 2 diabetes mellitus, obesity.
+Discharged on furosemide 40 mg daily, insulin glargine 20 units nightly, atorvastatin 40 mg nightly.
+Creatinine at discharge: 2.3 mg/dL. eGFR: 52 mL/min.
+Advised follow-up with primary care in 1 week and nephrology in 5 weeks.

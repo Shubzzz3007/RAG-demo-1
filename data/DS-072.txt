@@ -1,0 +1,4 @@
+Patient: 66F with heart failure with preserved ejection fraction.
+Discharged on albuterol 2 puffs q4h PRN, insulin glargine 20 units nightly, apixaban 5 mg BID.
+Creatinine at discharge: 2.1 mg/dL. eGFR: 75 mL/min.
+Advised follow-up with endocrinology in 2 weeks and pulmonology in 5 weeks.

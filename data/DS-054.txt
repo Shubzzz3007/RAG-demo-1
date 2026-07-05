@@ -1,0 +1,4 @@
+Patient: 79F with rheumatoid arthritis.
+Discharged on albuterol 2 puffs q4h PRN, metformin 500 mg BID, methotrexate 10 mg weekly.
+Creatinine at discharge: 2.3 mg/dL. eGFR: 25 mL/min.
+Advised follow-up with endocrinology in 4 weeks and pulmonology in 6 weeks.

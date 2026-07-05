@@ -1,0 +1,4 @@
+Patient: 79F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on lisinopril 10 mg daily, atorvastatin 40 mg nightly, prednisone 20 mg daily.
+Creatinine at discharge: 2.3 mg/dL. eGFR: 61 mL/min.
+Advised follow-up with cardiology in 3 weeks and nephrology in 2 weeks.

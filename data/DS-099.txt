@@ -1,0 +1,4 @@
+Patient: 72F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on empagliflozin 10 mg daily, carvedilol 6.25 mg BID, apixaban 5 mg BID.
+Creatinine at discharge: 1.4 mg/dL. eGFR: 69 mL/min.
+Advised follow-up with primary care in 3 weeks and cardiology in 6 weeks.

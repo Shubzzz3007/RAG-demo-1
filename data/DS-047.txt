@@ -1,0 +1,4 @@
+Patient: 65M with type 1 diabetes mellitus.
+Discharged on albuterol 2 puffs q4h PRN, metformin 500 mg BID, warfarin 5 mg daily.
+Creatinine at discharge: 1.2 mg/dL. eGFR: 23 mL/min.
+Advised follow-up with primary care in 1 week and cardiology in 3 weeks.

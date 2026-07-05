@@ -1,0 +1,4 @@
+Patient: 44F with type 2 diabetes mellitus, obesity.
+Discharged on insulin glargine 20 units nightly, prednisone 20 mg daily, lisinopril 10 mg daily.
+Creatinine at discharge: 1.9 mg/dL. eGFR: 41 mL/min.
+Advised follow-up with primary care in 4 weeks and nephrology in 4 weeks.

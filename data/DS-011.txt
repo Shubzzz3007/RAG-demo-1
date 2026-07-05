@@ -1,0 +1,4 @@
+Patient: 67M with CKD stage 4, hypertension.
+Discharged on albuterol 2 puffs q4h PRN, carvedilol 6.25 mg BID, insulin glargine 20 units nightly.
+Creatinine at discharge: 2.1 mg/dL. eGFR: 79 mL/min.
+Advised follow-up with internal medicine in 2 weeks and endocrinology in 4 weeks.

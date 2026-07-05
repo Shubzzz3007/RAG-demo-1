@@ -1,0 +1,4 @@
+Patient: 64F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on metformin 500 mg BID, methotrexate 10 mg weekly, albuterol 2 puffs q4h PRN.
+Creatinine at discharge: 1.4 mg/dL. eGFR: 48 mL/min.
+Advised follow-up with internal medicine in 2 weeks and pulmonology in 3 weeks.

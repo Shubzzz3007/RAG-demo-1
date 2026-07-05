@@ -1,0 +1,4 @@
+Patient: 63M with community-acquired pneumonia.
+Discharged on warfarin 5 mg daily, empagliflozin 10 mg daily, insulin glargine 20 units nightly.
+Creatinine at discharge: 1.4 mg/dL. eGFR: 58 mL/min.
+Advised follow-up with primary care in 1 week and internal medicine in 4 weeks.

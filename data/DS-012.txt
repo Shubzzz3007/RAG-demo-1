@@ -1,0 +1,4 @@
+Patient: 35F with type 2 diabetes mellitus, obesity.
+Discharged on atorvastatin 40 mg nightly, metformin 500 mg BID, carvedilol 6.25 mg BID.
+Creatinine at discharge: 2.3 mg/dL. eGFR: 54 mL/min.
+Advised follow-up with endocrinology in 2 weeks and cardiology in 6 weeks.

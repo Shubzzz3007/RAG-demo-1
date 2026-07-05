@@ -1,0 +1,4 @@
+Patient: 43M with atrial fibrillation, coronary artery disease.
+Discharged on insulin glargine 20 units nightly, albuterol 2 puffs q4h PRN, apixaban 5 mg BID.
+Creatinine at discharge: 1.8 mg/dL. eGFR: 57 mL/min.
+Advised follow-up with endocrinology in 1 week and internal medicine in 5 weeks.

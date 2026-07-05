@@ -1,0 +1,4 @@
+Patient: 58M with heart failure with reduced ejection fraction.
+Discharged on insulin glargine 20 units nightly, metformin 500 mg BID, albuterol 2 puffs q4h PRN.
+Creatinine at discharge: 1.0 mg/dL. eGFR: 20 mL/min.
+Advised follow-up with cardiology in 3 weeks and internal medicine in 3 weeks.

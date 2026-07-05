@@ -1,0 +1,4 @@
+Patient: 81M with rheumatoid arthritis.
+Discharged on metformin 500 mg BID, methotrexate 10 mg weekly.
+Creatinine at discharge: 1.0 mg/dL. eGFR: 41 mL/min.
+Advised follow-up with internal medicine in 4 weeks and nephrology in 6 weeks.

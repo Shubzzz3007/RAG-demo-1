@@ -1,0 +1,4 @@
+Patient: 86F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.
+Discharged on apixaban 5 mg BID, insulin glargine 20 units nightly, carvedilol 6.25 mg BID.
+Creatinine at discharge: 1.1 mg/dL. eGFR: 87 mL/min.
+Advised follow-up with primary care in 2 weeks and nephrology in 5 weeks.
