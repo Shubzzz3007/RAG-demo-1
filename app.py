@@ -604,25 +604,25 @@ if "search_result" in st.session_state:
                 st.markdown(f"**Relevancy:** {r_reason}")
                 st.markdown(f"**Context Precision:** {cp_reason}")
                 
-            st.markdown("#### Code-Based Metrics (Requires Ground Truth)")
-            if matched_test_case:
-                retrieved_doc_ids = [item["chunk"].doc_id for item in final_chunks_for_llm]
-                relevant_docs = matched_test_case["relevant_doc_ids"]
-                trap_docs = matched_test_case["trap_doc_ids"]
-                
-                mrr = calculate_mrr(retrieved_doc_ids, relevant_docs)
-                precision, recall = calculate_precision_recall(retrieved_doc_ids, relevant_docs, len(final_chunks_for_llm))
-                trap_avoidance = calculate_trap_avoidance(retrieved_doc_ids, trap_docs)
-                
-                col4, col5, col6, col7 = st.columns(4)
-                col4.metric("MRR", f"{mrr:.3f}")
-                col5.metric(f"Precision@{len(final_chunks_for_llm)}", f"{precision:.3f}")
-                col6.metric(f"Recall@{len(final_chunks_for_llm)}", f"{recall:.3f}")
-                col7.metric("Trap Avoidance", "✅ Passed" if trap_avoidance == 1.0 else "❌ Failed")
-                
-                st.caption(f"Evaluated against known test case scenario: `{matched_test_case['scenario']}`")
-            else:
-                st.info("💡 **MRR, Precision, Recall, and Trap Avoidance** could not be calculated because your query does not match any of the predefined ground truth test cases in `evaluation/test_cases.py`.\n\nCode-based metrics require a known list of 'correct' documents to compare against, whereas the LLM-as-a-judge metrics above evaluate the text directly.")
+            # st.markdown("#### Code-Based Metrics (Requires Ground Truth)")
+            # if matched_test_case:
+            #     retrieved_doc_ids = [item["chunk"].doc_id for item in final_chunks_for_llm]
+            #     relevant_docs = matched_test_case["relevant_doc_ids"]
+            #     trap_docs = matched_test_case["trap_doc_ids"]
+            #     
+            #     mrr = calculate_mrr(retrieved_doc_ids, relevant_docs)
+            #     precision, recall = calculate_precision_recall(retrieved_doc_ids, relevant_docs, len(final_chunks_for_llm))
+            #     trap_avoidance = calculate_trap_avoidance(retrieved_doc_ids, trap_docs)
+            #     
+            #     col4, col5, col6, col7 = st.columns(4)
+            #     col4.metric("MRR", f"{mrr:.3f}")
+            #     col5.metric(f"Precision@{len(final_chunks_for_llm)}", f"{precision:.3f}")
+            #     col6.metric(f"Recall@{len(final_chunks_for_llm)}", f"{recall:.3f}")
+            #     col7.metric("Trap Avoidance", "✅ Passed" if trap_avoidance == 1.0 else "❌ Failed")
+            #     
+            #     st.caption(f"Evaluated against known test case scenario: `{matched_test_case['scenario']}`")
+            # else:
+            #     st.info("💡 **MRR, Precision, Recall, and Trap Avoidance** could not be calculated because your query does not match any of the predefined ground truth test cases in `evaluation/test_cases.py`.\n\nCode-based metrics require a known list of 'correct' documents to compare against, whereas the LLM-as-a-judge metrics above evaluate the text directly.")
 
     # --- Citations ---
     st.markdown("---")
@@ -670,7 +670,7 @@ if "search_result" in st.session_state:
         with st.expander(
             f"Rank #{rank} — {chunk.doc_id} | Score: {score:.4f} | "
             f"{chunk.doc_type.replace('_', ' ').title()}",
-            expanded=(rank <= 3),
+            expanded=False,
         ):
             # Metadata row
             col1, col2, col3, col4 = st.columns(4)
