@@ -1,0 +1,76 @@
+config_chunking,config_index,config_mmr,config_reranker,query,mrr,precision,recall,trap_avoidance,faithfulness,relevancy,context_precision,latency
+baseline,ivf,False,False,What is the recommended eGFR threshold for metformin use according to the guidelines?,0.25,0.2,0.3333333333333333,1.0,1.0,1.0,1.0,3.8370108604431152
+baseline,ivf,False,False,What medications was patient P-170 discharged on and when is their follow-up?,1.0,0.2,1.0,1.0,1.0,1.0,0.0,3.0665700435638428
+baseline,ivf,False,False,What are the discharge instructions for the 38M patient with type 1 diabetes mellitus?,0.5,0.2,1.0,0.0,1.0,0.9,0.0,3.5886659622192383
+baseline,ivf,False,False,"Advise follow up for 50F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, and CKD stage 3.",0.5,0.2,1.0,0.0,1.0,0.1,0.0,3.274717330932617
+baseline,ivf,False,False,What is the discharge creatinine and eGFR for patient P-001?,0.0,0.0,0.0,1.0,1.0,1.0,0.5,3.2770700454711914
+baseline,ivf,False,False,What is the recommended eGFR threshold for metformin use?,0.25,0.2,0.3333333333333333,1.0,1.0,1.0,1.0,5.426791191101074
+baseline,ivf,False,False,Is patient P-160 taking methotrexate or metformin?,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,0.0,3.481097936630249
+baseline,ivf,False,False,What is the follow-up plan for the 69M with heart failure with preserved ejection fraction (P-166)?,1.0,0.2,1.0,0.0,1.0,1.0,0.0,3.6931331157684326
+baseline,ivf,False,False,What medications is patient P-180 on?,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.480041027069092
+baseline,ivf,False,False,What are the common side effects of lisinopril mentioned in PubMed abstracts?,0.0,0.0,0.0,1.0,1.0,0.1,0.0,3.9945738315582275
+baseline,ivf,False,False,What is the eGFR of the 72M patient with CKD stage 4 (P-170)?,0.5,0.2,1.0,1.0,1.0,1.0,0.5,3.072373628616333
+baseline,ivf,False,False,Is empagliflozin prescribed for patient P-001?,0.0,0.0,0.0,1.0,0.8,1.0,0.5,3.479846239089966
+baseline,ivf,False,False,Which patients were advised to follow up with nephrology?,0.0,0.0,0.0,1.0,0.6,1.0,1.0,3.988412857055664
+baseline,ivf,False,False,"According to guidelines, should metformin be given if eGFR is 45?",0.25,0.2,0.5,1.0,1.0,1.0,1.0,4.60641884803772
+baseline,ivf,False,False,What is patient P-152's creatinine level?,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.2820777893066406
+recursive,ivf,False,False,What is the recommended eGFR threshold for metformin use according to the guidelines?,0.0,0.0,0.0,1.0,1.0,1.0,1.0,3.361637830734253
+recursive,ivf,False,False,What medications was patient P-170 discharged on and when is their follow-up?,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.4812469482421875
+recursive,ivf,False,False,What are the discharge instructions for the 38M patient with type 1 diabetes mellitus?,1.0,0.2,1.0,0.0,1.0,0.6,1.0,3.9357922077178955
+recursive,ivf,False,False,"Advise follow up for 50F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, and CKD stage 3.",0.2,0.2,1.0,0.0,1.0,0.6,1.0,4.198518991470337
+recursive,ivf,False,False,What is the discharge creatinine and eGFR for patient P-001?,0.0,0.0,0.0,1.0,1.0,1.0,0.5,3.4819560050964355
+recursive,ivf,False,False,What is the recommended eGFR threshold for metformin use?,0.0,0.0,0.0,1.0,1.0,1.0,1.0,3.694216251373291
+recursive,ivf,False,False,Is patient P-160 taking methotrexate or metformin?,0.0,0.0,0.0,1.0,1.0,1.0,0.5,3.482053756713867
+recursive,ivf,False,False,What is the follow-up plan for the 69M with heart failure with preserved ejection fraction (P-166)?,0.5,0.2,1.0,0.0,1.0,1.0,1.0,3.366878032684326
+recursive,ivf,False,False,What medications is patient P-180 on?,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.8906612396240234
+recursive,ivf,False,False,What are the common side effects of lisinopril mentioned in PubMed abstracts?,0.0,0.0,0.0,1.0,1.0,0.1,0.0,3.686613082885742
+recursive,ivf,False,False,What is the eGFR of the 72M patient with CKD stage 4 (P-170)?,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.3790721893310547
+recursive,ivf,False,False,Is empagliflozin prescribed for patient P-001?,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.380666732788086
+recursive,ivf,False,False,Which patients were advised to follow up with nephrology?,0.0,0.0,0.0,1.0,1.0,1.0,1.0,3.6941049098968506
+recursive,ivf,False,False,"According to guidelines, should metformin be given if eGFR is 45?",0.0,0.0,0.0,1.0,1.0,1.0,1.0,3.893505811691284
+recursive,ivf,False,False,What is patient P-152's creatinine level?,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.8698220252990723
+baseline,ivf,True,False,What is the recommended eGFR threshold for metformin use according to the guidelines?,0.2,0.2,0.3333333333333333,1.0,1.0,1.0,1.0,4.175156354904175
+baseline,ivf,True,False,What medications was patient P-170 discharged on and when is their follow-up?,1.0,0.2,1.0,1.0,1.0,1.0,0.0,3.6639790534973145
+baseline,ivf,True,False,What are the discharge instructions for the 38M patient with type 1 diabetes mellitus?,0.25,0.2,1.0,0.0,1.0,1.0,0.5,3.99281907081604
+baseline,ivf,True,False,"Advise follow up for 50F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, and CKD stage 3.",0.5,0.2,1.0,0.0,1.0,0.1,0.0,3.774768114089966
+baseline,ivf,True,False,What is the discharge creatinine and eGFR for patient P-001?,0.0,0.0,0.0,1.0,1.0,1.0,0.5,3.890146017074585
+baseline,ivf,True,False,What is the recommended eGFR threshold for metformin use?,0.2,0.2,0.3333333333333333,1.0,1.0,0.8,1.0,4.4829041957855225
+baseline,ivf,True,False,Is patient P-160 taking methotrexate or metformin?,0.0,0.0,0.0,1.0,0.7,0.6,0.5,4.505853891372681
+baseline,ivf,True,False,What is the follow-up plan for the 69M with heart failure with preserved ejection fraction (P-166)?,1.0,0.2,1.0,0.0,1.0,1.0,0.0,3.7535250186920166
+baseline,ivf,True,False,What medications is patient P-180 on?,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.787777900695801
+baseline,ivf,True,False,What are the common side effects of lisinopril mentioned in PubMed abstracts?,0.0,0.0,0.0,1.0,1.0,1.0,0.0,4.095422983169556
+baseline,ivf,True,False,What is the eGFR of the 72M patient with CKD stage 4 (P-170)?,0.25,0.2,1.0,1.0,1.0,1.0,0.5,3.881732225418091
+baseline,ivf,True,False,Is empagliflozin prescribed for patient P-001?,0.0,0.0,0.0,1.0,1.0,1.0,0.5,3.991988182067871
+baseline,ivf,True,False,Which patients were advised to follow up with nephrology?,0.0,0.0,0.0,1.0,0.6,1.0,1.0,4.298171043395996
+baseline,ivf,True,False,"According to guidelines, should metformin be given if eGFR is 45?",0.5,0.4,1.0,1.0,1.0,1.0,1.0,4.606407880783081
+baseline,ivf,True,False,What is patient P-152's creatinine level?,0.0,0.0,0.0,1.0,1.0,1.0,0.0,4.198434829711914
+baseline,ivf,False,True,What is the recommended eGFR threshold for metformin use according to the guidelines?,0.25,0.2,0.3333333333333333,1.0,1.0,1.0,1.0,3.5204532146453857
+baseline,ivf,False,True,What medications was patient P-170 discharged on and when is their follow-up?,0.25,0.2,1.0,1.0,1.0,1.0,0.0,3.2997450828552246
+baseline,ivf,False,True,What are the discharge instructions for the 38M patient with type 1 diabetes mellitus?,0.5,0.2,1.0,0.0,1.0,0.9,0.0,3.2785580158233643
+baseline,ivf,False,True,"Advise follow up for 50F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, and CKD stage 3.",0.5,0.2,1.0,0.0,1.0,0.1,0.0,4.0251100063323975
+baseline,ivf,False,True,What is the discharge creatinine and eGFR for patient P-001?,0.0,0.0,0.0,1.0,1.0,1.0,0.5,3.636044979095459
+baseline,ivf,False,True,What is the recommended eGFR threshold for metformin use?,0.25,0.2,0.3333333333333333,1.0,1.0,1.0,1.0,3.7894139289855957
+baseline,ivf,False,True,Is patient P-160 taking methotrexate or metformin?,0.5,0.2,1.0,1.0,1.0,1.0,0.5,3.4513819217681885
+baseline,ivf,False,True,What is the follow-up plan for the 69M with heart failure with preserved ejection fraction (P-166)?,1.0,0.2,1.0,0.0,1.0,1.0,0.0,3.4833829402923584
+baseline,ivf,False,True,What medications is patient P-180 on?,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.2767412662506104
+baseline,ivf,False,True,What are the common side effects of lisinopril mentioned in PubMed abstracts?,0.0,0.0,0.0,1.0,1.0,0.1,0.0,3.2754931449890137
+baseline,ivf,False,True,What is the eGFR of the 72M patient with CKD stage 4 (P-170)?,1.0,0.2,1.0,1.0,1.0,1.0,0.0,3.786343812942505
+baseline,ivf,False,True,Is empagliflozin prescribed for patient P-001?,0.0,0.0,0.0,1.0,1.0,1.0,0.5,3.480987310409546
+baseline,ivf,False,True,Which patients were advised to follow up with nephrology?,0.0,0.0,0.0,1.0,0.7,1.0,1.0,4.63948392868042
+baseline,ivf,False,True,"According to guidelines, should metformin be given if eGFR is 45?",0.25,0.2,0.5,1.0,1.0,1.0,1.0,3.6905269622802734
+baseline,ivf,False,True,What is patient P-152's creatinine level?,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.2981481552124023
+baseline,ivf,True,True,What is the recommended eGFR threshold for metformin use according to the guidelines?,0.2,0.2,0.3333333333333333,1.0,1.0,0.9,1.0,5.498855829238892
+baseline,ivf,True,True,What medications was patient P-170 discharged on and when is their follow-up?,0.3333333333333333,0.2,1.0,1.0,1.0,1.0,0.5,3.788968086242676
+baseline,ivf,True,True,What are the discharge instructions for the 38M patient with type 1 diabetes mellitus?,0.5,0.2,1.0,0.0,1.0,0.1,0.5,4.538508176803589
+baseline,ivf,True,True,"Advise follow up for 50F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, and CKD stage 3.",0.5,0.2,1.0,0.0,1.0,0.1,0.0,4.198466777801514
+baseline,ivf,True,True,What is the discharge creatinine and eGFR for patient P-001?,0.0,0.0,0.0,1.0,1.0,1.0,0.5,3.8442859649658203
+baseline,ivf,True,True,What is the recommended eGFR threshold for metformin use?,0.2,0.2,0.3333333333333333,1.0,1.0,0.9,1.0,4.403053045272827
+baseline,ivf,True,True,Is patient P-160 taking methotrexate or metformin?,0.0,0.0,0.0,1.0,0.7,1.0,0.5,3.8914921283721924
+baseline,ivf,True,True,What is the follow-up plan for the 69M with heart failure with preserved ejection fraction (P-166)?,1.0,0.2,1.0,0.0,1.0,1.0,0.0,3.9319260120391846
+baseline,ivf,True,True,What medications is patient P-180 on?,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.788567066192627
+baseline,ivf,True,True,What are the common side effects of lisinopril mentioned in PubMed abstracts?,0.0,0.0,0.0,1.0,1.0,0.1,0.0,4.302282094955444
+baseline,ivf,True,True,What is the eGFR of the 72M patient with CKD stage 4 (P-170)?,1.0,0.2,1.0,1.0,1.0,1.0,0.0,3.9932007789611816
+baseline,ivf,True,True,Is empagliflozin prescribed for patient P-001?,0.0,0.0,0.0,1.0,1.0,1.0,0.5,4.096086025238037
+baseline,ivf,True,True,Which patients were advised to follow up with nephrology?,0.0,0.0,0.0,1.0,0.7,1.0,1.0,3.9937479496002197
+baseline,ivf,True,True,"According to guidelines, should metformin be given if eGFR is 45?",0.25,0.4,1.0,1.0,1.0,1.0,1.0,4.608649015426636
+baseline,ivf,True,True,What is patient P-152's creatinine level?,0.0,0.0,0.0,1.0,1.0,1.0,0.0,3.9937522411346436

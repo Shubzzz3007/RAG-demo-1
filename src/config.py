@@ -91,6 +91,10 @@ MAX_CHUNK_SIZE: int = 500
 # Overlap between fallback splits (characters)
 CHUNK_OVERLAP: int = 50
 
+# Recursive chunking configuration
+RECURSIVE_CHUNK_SIZE: int = 400
+RECURSIVE_CHUNK_OVERLAP: int = 100
+
 
 # ============================================================
 # RETRIEVAL CONFIGURATION

@@ -74,15 +74,18 @@ class DenseRetriever:
         results = retriever.search("What is metformin used for?", top_k=10)
     """
 
-    def __init__(self, index_name: str = "flat"):
+    def __init__(self, index_name: str = "flat", strategy: str = "baseline"):
         """
         Initialize the retriever by loading chunks, embeddings, and index.
 
         Args:
             index_name: Which FAISS index to use ("flat", "ivf", "hnsw").
+            strategy:   Which chunking strategy to use ("baseline" or "recursive").
         """
+        self.strategy = strategy
+        
         # --- Load chunks ---
-        chunks_path = EMBEDDINGS_DIR / "chunks.pkl"
+        chunks_path = EMBEDDINGS_DIR / f"chunks_{strategy}.pkl"
         if not chunks_path.exists():
             raise FileNotFoundError(
                 f"Chunks file not found: {chunks_path}. "
@@ -91,10 +94,10 @@ class DenseRetriever:
 
         with open(chunks_path, "rb") as f:
             self.chunks: list[Chunk] = pickle.load(f)
-        logger.info(f"Loaded {len(self.chunks)} chunks")
+        logger.info(f"Loaded {len(self.chunks)} {strategy} chunks")
 
         # --- Load embeddings ---
-        embeddings_path = EMBEDDINGS_DIR / "embeddings.npy"
+        embeddings_path = EMBEDDINGS_DIR / f"embeddings_{strategy}.npy"
         if not embeddings_path.exists():
             raise FileNotFoundError(
                 f"Embeddings file not found: {embeddings_path}. "
@@ -105,8 +108,8 @@ class DenseRetriever:
         logger.info(f"Loaded embeddings: {self.embeddings.shape}")
 
         # --- Load FAISS index ---
-        self.index_name = index_name
-        self.index: faiss.Index = load_index(index_name)
+        self.index_name = f"{index_name}_{strategy}"
+        self.index: faiss.Index = load_index(self.index_name)
 
         # --- Initialize embedding service for query embedding ---
         self.embedding_service = EmbeddingService()

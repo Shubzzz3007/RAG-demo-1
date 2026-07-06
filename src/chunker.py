@@ -32,7 +32,7 @@ import re
 from dataclasses import dataclass, field
 from typing import Optional
 
-from src.config import MAX_CHUNK_SIZE, CHUNK_OVERLAP
+from src.config import MAX_CHUNK_SIZE, CHUNK_OVERLAP, RECURSIVE_CHUNK_SIZE, RECURSIVE_CHUNK_OVERLAP
 from src.document_loader import Document
 from src.utils import get_logger, timer
 
@@ -421,6 +421,50 @@ def chunk_documents(documents: list[Document]) -> list[Chunk]:
 
     return all_chunks
 
+
+@timer
+def chunk_documents_recursive(documents: list[Document]) -> list[Chunk]:
+    """
+    Chunk all documents using a sliding window / recursive character strategy.
+
+    This blindly splits text by size with an overlap, ignoring sections.
+    This serves as a robust baseline that works on any dataset structure.
+
+    Args:
+        documents: List of Document objects from the loader.
+
+    Returns:
+        List of all Chunk objects across all documents.
+    """
+    all_chunks: list[Chunk] = []
+
+    for doc in documents:
+        text = doc.content.strip()
+        if not text:
+            continue
+
+        # Split text into sliding windows
+        sub_texts = _split_with_overlap(text, RECURSIVE_CHUNK_SIZE, RECURSIVE_CHUNK_OVERLAP)
+        
+        for i, sub_text in enumerate(sub_texts):
+            chunk = _create_chunk(
+                doc=doc,
+                text=sub_text,
+                chunk_index=i,
+                section_type="recursive_window"
+            )
+            all_chunks.append(chunk)
+
+    type_counts: dict[str, int] = {}
+    for chunk in all_chunks:
+        type_counts[chunk.doc_type] = type_counts.get(chunk.doc_type, 0) + 1
+
+    logger.info(
+        f"Created {len(all_chunks)} recursive chunks from {len(documents)} documents: "
+        f"{type_counts}"
+    )
+
+    return all_chunks
 
 # ============================================================
 # QUICK TEST

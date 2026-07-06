@@ -154,9 +154,9 @@ st.markdown("""
 # ============================================================
 
 @st.cache_resource
-def load_retriever(index_name: str) -> DenseRetriever:
-    """Load the dense retriever with the specified FAISS index."""
-    return DenseRetriever(index_name=index_name)
+def load_retriever(index_name: str, strategy: str) -> DenseRetriever:
+    """Load the dense retriever with the specified FAISS index and strategy."""
+    return DenseRetriever(index_name=index_name, strategy=strategy)
 
 
 @st.cache_resource
@@ -220,6 +220,15 @@ def render_confidence_badge(confidence: str) -> str:
 
 st.sidebar.markdown("## 🔧 Retrieval Settings")
 
+# Chunking Strategy Selection
+chunking_strategy = st.sidebar.selectbox(
+    "Chunking Strategy",
+    options=["baseline", "recursive"],
+    format_func=lambda x: "Baseline (Section-Aware)" if x == "baseline" else "Recursive Overlap (400 chars)",
+    index=0,
+    help="Baseline = Section-aware splitting, Recursive = Fixed size sliding window",
+)
+
 # FAISS Index Selection
 faiss_index = st.sidebar.selectbox(
     "FAISS Index",
@@ -257,7 +266,7 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("### 🏷️ Metadata Filters")
 
 # Load retriever to get available filter values
-retriever = load_retriever(faiss_index)
+retriever = load_retriever(faiss_index, chunking_strategy)
 metadata_filter = MetadataFilter(retriever.get_all_chunks())
 
 # Document Type filter
@@ -347,6 +356,7 @@ if st.button("🔍 Search & Answer", type="primary", use_container_width=True):
     st.markdown("### ⚙️ Applied Retrieval Settings")
 
     settings_html = f'<span class="setting-badge">📊 FAISS: {faiss_index.upper()}</span>'
+    settings_html += f'<span class="setting-badge">🧩 Chunking: {chunking_strategy.title()}</span>'
     if use_hyde:
         settings_html += '<span class="setting-badge">🔮 HyDE: ON</span>'
     if use_mmr:
@@ -515,12 +525,130 @@ if st.button("🔍 Search & Answer", type="primary", use_container_width=True):
         )
         timings["llm"] = time.time() - t0
 
-    # ==========================================================
-    # DISPLAY RESULTS
-    # ==========================================================
+    # Store results in session state so they persist when 'Evaluate' is clicked
+    st.session_state["search_result"] = {
+        "question": question,
+        "answer": answer,
+        "final_chunks_for_llm": final_chunks_for_llm,
+        "hyde_result": hyde_result,
+        "pre_enhancement_results": pre_enhancement_results,
+        "reranked_results": reranked_results,
+        "mmr_results": mmr_results,
+        "timings": timings,
+    }
+
+
+# ============================================================
+# DISPLAY RESULTS
+# ============================================================
+if "search_result" in st.session_state:
+    res = st.session_state["search_result"]
+    question = res["question"]
+    answer = res["answer"]
+    final_chunks_for_llm = res["final_chunks_for_llm"]
+    hyde_result = res["hyde_result"]
+    pre_enhancement_results = res["pre_enhancement_results"]
+    reranked_results = res["reranked_results"]
+    mmr_results = res["mmr_results"]
+    timings = res["timings"]
+
     st.markdown("---")
 
+    # --- Generated Answer ---
+    st.markdown("### 💡 Generated Answer")
+
+    # Extract and display confidence
+    confidence = extract_confidence(answer)
+    st.markdown(
+        f"**Confidence:** {render_confidence_badge(confidence)}",
+        unsafe_allow_html=True,
+    )
+
+    # Display the answer
+    st.markdown(answer)
+
+    # --- Evaluate this Response ---
+    st.markdown("---")
+    st.markdown("### 📊 Evaluate this Response")
+    if st.button("Evaluate Answer (GPT-4.1 Judge)", type="secondary"):
+        with st.spinner("Running Evaluations..."):
+            from src.evaluation import (
+                evaluate_faithfulness, 
+                evaluate_relevancy, 
+                evaluate_context_precision,
+                calculate_mrr,
+                calculate_precision_recall,
+                calculate_trap_avoidance
+            )
+            from evaluation.test_cases import TEST_CASES
+            
+            # Prepare context string
+            context_str = "\n\n".join([f"Document {item['chunk'].doc_id}: {item['chunk'].text}" for item in final_chunks_for_llm])
+            
+            # Run RAGAS metrics (Reference-free, can run on any query)
+            f_score, f_reason = evaluate_faithfulness(question, context_str, answer)
+            r_score, r_reason = evaluate_relevancy(question, answer)
+            cp_score, cp_reason = evaluate_context_precision(question, context_str)
+            
+            # Try to match the query to our ground truth test cases to calculate code-based metrics
+            matched_test_case = next((tc for tc in TEST_CASES if tc["query"].strip().lower() == question.strip().lower()), None)
+            
+            st.markdown("#### LLM-as-a-Judge Metrics (Reference-free)")
+            col1, col2, col3 = st.columns(3)
+            col1.metric("Faithfulness", f"{f_score:.2f} / 1.0")
+            col2.metric("Answer Relevancy", f"{r_score:.2f} / 1.0")
+            col3.metric("Context Precision", f"{cp_score:.2f} / 1.0")
+            
+            with st.expander("Show Judge Reasoning"):
+                st.markdown(f"**Faithfulness:** {f_reason}")
+                st.markdown(f"**Relevancy:** {r_reason}")
+                st.markdown(f"**Context Precision:** {cp_reason}")
+                
+            st.markdown("#### Code-Based Metrics (Requires Ground Truth)")
+            if matched_test_case:
+                retrieved_doc_ids = [item["chunk"].doc_id for item in final_chunks_for_llm]
+                relevant_docs = matched_test_case["relevant_doc_ids"]
+                trap_docs = matched_test_case["trap_doc_ids"]
+                
+                mrr = calculate_mrr(retrieved_doc_ids, relevant_docs)
+                precision, recall = calculate_precision_recall(retrieved_doc_ids, relevant_docs, len(final_chunks_for_llm))
+                trap_avoidance = calculate_trap_avoidance(retrieved_doc_ids, trap_docs)
+                
+                col4, col5, col6, col7 = st.columns(4)
+                col4.metric("MRR", f"{mrr:.3f}")
+                col5.metric(f"Precision@{len(final_chunks_for_llm)}", f"{precision:.3f}")
+                col6.metric(f"Recall@{len(final_chunks_for_llm)}", f"{recall:.3f}")
+                col7.metric("Trap Avoidance", "✅ Passed" if trap_avoidance == 1.0 else "❌ Failed")
+                
+                st.caption(f"Evaluated against known test case scenario: `{matched_test_case['scenario']}`")
+            else:
+                st.info("💡 **MRR, Precision, Recall, and Trap Avoidance** could not be calculated because your query does not match any of the predefined ground truth test cases in `evaluation/test_cases.py`.\n\nCode-based metrics require a known list of 'correct' documents to compare against, whereas the LLM-as-a-judge metrics above evaluate the text directly.")
+
+    # --- Citations ---
+    st.markdown("---")
+    st.markdown("### 📎 Citations")
+
+    cited_docs: set[str] = set()
+    for item in final_chunks_for_llm:
+        doc_id = item["chunk"].doc_id
+        if f"[{doc_id}]" in answer:
+            cited_docs.add(doc_id)
+
+    if cited_docs:
+        for item in final_chunks_for_llm:
+            chunk = item["chunk"]
+            if chunk.doc_id in cited_docs:
+                st.markdown(
+                    f"- **[{chunk.doc_id}]** — "
+                    f"{doc_type_labels.get(chunk.doc_type, chunk.doc_type)} | "
+                    f"Specialty: {chunk.specialty} | "
+                    f"Disease: {', '.join(chunk.disease)}"
+                )
+    else:
+        st.caption("No explicit citations found in the answer.")
+
     # --- HyDE Section (if enabled) ---
+    st.markdown("---")
     if hyde_result:
         with st.expander("🔮 HyDE — Hypothetical Document", expanded=False):
             st.markdown("**Generated Hypothetical Passage:**")
@@ -607,43 +735,6 @@ if st.button("🔍 Search & Answer", type="primary", use_container_width=True):
                         f"*{r.chunk.doc_type.replace('_', ' ')}*"
                     )
 
-    # --- Generated Answer ---
-    st.markdown("---")
-    st.markdown("### 💡 Generated Answer")
-
-    # Extract and display confidence
-    confidence = extract_confidence(answer)
-    st.markdown(
-        f"**Confidence:** {render_confidence_badge(confidence)}",
-        unsafe_allow_html=True,
-    )
-
-    # Display the answer
-    st.markdown(answer)
-
-    # --- Citations ---
-    st.markdown("---")
-    st.markdown("### 📎 Citations")
-
-    cited_docs: set[str] = set()
-    for item in final_chunks_for_llm:
-        doc_id = item["chunk"].doc_id
-        if f"[{doc_id}]" in answer:
-            cited_docs.add(doc_id)
-
-    if cited_docs:
-        for item in final_chunks_for_llm:
-            chunk = item["chunk"]
-            if chunk.doc_id in cited_docs:
-                st.markdown(
-                    f"- **[{chunk.doc_id}]** — "
-                    f"{doc_type_labels.get(chunk.doc_type, chunk.doc_type)} | "
-                    f"Specialty: {chunk.specialty} | "
-                    f"Disease: {', '.join(chunk.disease)}"
-                )
-    else:
-        st.caption("No explicit citations found in the answer.")
-
     # --- Timing Breakdown ---
     with st.expander("⏱️ Latency Breakdown", expanded=False):
         total = sum(timings.values())
@@ -651,3 +742,4 @@ if st.button("🔍 Search & Answer", type="primary", use_container_width=True):
             label = step.replace("_", " ").title()
             st.markdown(f"- **{label}**: {elapsed:.2f}s")
         st.markdown(f"- **Total**: {total:.2f}s")
+
