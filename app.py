@@ -224,15 +224,15 @@ st.sidebar.markdown("## 🔧 Retrieval Settings")
 chunking_strategy = st.sidebar.selectbox(
     "Chunking Strategy",
     options=["baseline", "recursive"],
-    format_func=lambda x: "Baseline (Section-Aware)" if x == "baseline" else "Recursive Overlap (400 chars)",
+    format_func=lambda x: "Baseline (Section-Aware)" if x == "baseline" else "Recursive Overlap",
     index=0,
     help="Baseline = Section-aware splitting, Recursive = Fixed size sliding window",
 )
 
 # FAISS Index Selection
 faiss_index = st.sidebar.selectbox(
-    "FAISS Index",
-    options=["flat", "ivf", "hnsw"],
+    "Index",
+    options=["FLAT", "IVF", "HNSW"],
     index=0,
     help="Flat = exact search, IVF = approximate (faster), HNSW = graph-based (fastest)",
 )
