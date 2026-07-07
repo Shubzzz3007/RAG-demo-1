@@ -566,43 +566,6 @@ if "search_result" in st.session_state:
 
     # Display the answer
     st.markdown(answer)
-
-    # --- Evaluate this Response ---
-    st.markdown("---")
-    st.markdown("### 📊 Evaluate this Response")
-    if st.button("Evaluate Answer (GPT-4.1 Judge)", type="secondary"):
-        with st.spinner("Running Evaluations..."):
-            from src.evaluation import (
-                evaluate_faithfulness, 
-                evaluate_relevancy, 
-                evaluate_context_precision,
-                calculate_mrr,
-                calculate_precision_recall,
-                calculate_trap_avoidance
-            )
-            from evaluation.test_cases import TEST_CASES
-            
-            # Prepare context string
-            context_str = "\n\n".join([f"Document {item['chunk'].doc_id}: {item['chunk'].text}" for item in final_chunks_for_llm])
-            
-            # Run RAGAS metrics (Reference-free, can run on any query)
-            f_score, f_reason = evaluate_faithfulness(question, context_str, answer)
-            r_score, r_reason = evaluate_relevancy(question, answer)
-            cp_score, cp_reason = evaluate_context_precision(question, context_str)
-            
-            # Try to match the query to our ground truth test cases to calculate code-based metrics
-            matched_test_case = next((tc for tc in TEST_CASES if tc["query"].strip().lower() == question.strip().lower()), None)
-            
-            st.markdown("#### LLM-as-a-Judge Metrics (Reference-free)")
-            col1, col2, col3 = st.columns(3)
-            col1.metric("Faithfulness", f"{f_score:.2f} / 1.0")
-            col2.metric("Answer Relevancy", f"{r_score:.2f} / 1.0")
-            col3.metric("Context Precision", f"{cp_score:.2f} / 1.0")
-            
-            with st.expander("Show Judge Reasoning"):
-                st.markdown(f"**Faithfulness:** {f_reason}")
-                st.markdown(f"**Relevancy:** {r_reason}")
-                st.markdown(f"**Context Precision:** {cp_reason}")
                 
             # st.markdown("#### Code-Based Metrics (Requires Ground Truth)")
             # if matched_test_case:
@@ -625,27 +588,27 @@ if "search_result" in st.session_state:
             #     st.info("💡 **MRR, Precision, Recall, and Trap Avoidance** could not be calculated because your query does not match any of the predefined ground truth test cases in `evaluation/test_cases.py`.\n\nCode-based metrics require a known list of 'correct' documents to compare against, whereas the LLM-as-a-judge metrics above evaluate the text directly.")
 
     # --- Citations ---
-    st.markdown("---")
-    st.markdown("### 📎 Citations")
+    # st.markdown("---")
+    # st.markdown("### 📎 Citations")
 
-    cited_docs: set[str] = set()
-    for item in final_chunks_for_llm:
-        doc_id = item["chunk"].doc_id
-        if f"[{doc_id}]" in answer:
-            cited_docs.add(doc_id)
+    # cited_docs: set[str] = set()
+    # for item in final_chunks_for_llm:
+    #     doc_id = item["chunk"].doc_id
+    #     if f"[{doc_id}]" in answer:
+    #         cited_docs.add(doc_id)
 
-    if cited_docs:
-        for item in final_chunks_for_llm:
-            chunk = item["chunk"]
-            if chunk.doc_id in cited_docs:
-                st.markdown(
-                    f"- **[{chunk.doc_id}]** — "
-                    f"{doc_type_labels.get(chunk.doc_type, chunk.doc_type)} | "
-                    f"Specialty: {chunk.specialty} | "
-                    f"Disease: {', '.join(chunk.disease)}"
-                )
-    else:
-        st.caption("No explicit citations found in the answer.")
+    # if cited_docs:
+    #     for item in final_chunks_for_llm:
+    #         chunk = item["chunk"]
+    #         if chunk.doc_id in cited_docs:
+    #             st.markdown(
+    #                 f"- **[{chunk.doc_id}]** — "
+    #                 f"{doc_type_labels.get(chunk.doc_type, chunk.doc_type)} | "
+    #                 f"Specialty: {chunk.specialty} | "
+    #                 f"Disease: {', '.join(chunk.disease)}"
+    #             )
+    # else:
+    #     st.caption("No explicit citations found in the answer.")
 
     # --- HyDE Section (if enabled) ---
     st.markdown("---")
@@ -743,3 +706,42 @@ if "search_result" in st.session_state:
             st.markdown(f"- **{label}**: {elapsed:.2f}s")
         st.markdown(f"- **Total**: {total:.2f}s")
 
+    # --- Evaluate this Response ---
+    st.markdown("---")
+    st.markdown("### 📊 Evaluate this Response")
+    if st.button("Evaluate Answer (Official RAGAS)", type="secondary"):
+        with st.spinner("Running Official RAGAS Evaluations... (Takes ~10 seconds)"):
+            from src.evaluation import (
+                evaluate_with_ragas,
+                calculate_mrr,
+                calculate_precision_recall,
+                calculate_trap_avoidance
+            )
+            from evaluation.test_cases import TEST_CASES
+            
+            # Prepare contexts as a list of strings for RAGAS
+            contexts = [item['chunk'].text for item in final_chunks_for_llm]
+            
+            # Run RAGAS metrics
+            ragas_result = evaluate_with_ragas(question, answer, contexts)
+            
+            # Try to match the query to our ground truth test cases to calculate code-based metrics
+            matched_test_case = next((tc for tc in TEST_CASES if tc["query"].strip().lower() == question.strip().lower()), None)
+            
+            st.markdown("#### LLM-as-a-Judge Metrics (RAGAS Package)")
+            
+            # Extract scores (handle NaN/Missing)
+            f_score = ragas_result.get("faithfulness", 0.0)
+            r_score = ragas_result.get("answer_relevancy", 0.0)
+            cp_score = ragas_result.get("context_precision", None)
+            
+            if cp_score is not None:
+                col1, col2, col3 = st.columns(3)
+                col1.metric("Faithfulness", f"{f_score:.2f} / 1.0")
+                col2.metric("Answer Relevancy", f"{r_score:.2f} / 1.0")
+                col3.metric("Context Precision", f"{cp_score:.2f} / 1.0")
+            else:
+                col1, col2 = st.columns(2)
+                col1.metric("Faithfulness", f"{f_score:.2f} / 1.0")
+                col2.metric("Answer Relevancy", f"{r_score:.2f} / 1.0")
+                st.info("Context Precision was skipped because this random question is not in the ground-truth testset (ragas_dataset.json).")

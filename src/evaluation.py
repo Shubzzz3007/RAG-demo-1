@@ -8,125 +8,111 @@
 
 import json
 import os
+import pandas as pd
 from openai import AzureOpenAI
 from src.config import (
     AZURE_OPENAI_ENDPOINT,
     AZURE_OPENAI_API_KEY,
     AZURE_OPENAI_API_VERSION,
+    AZURE_OPENAI_EMBEDDING_ENDPOINT,
+    AZURE_OPENAI_EMBEDDING_KEY,
+    AZURE_OPENAI_EMBEDDING_API_VERSION,
+    AZURE_OPENAI_EMBEDDING_DEPLOYMENT_NAME,
 )
 from src.utils import get_logger
+
+from datasets import Dataset
+from ragas import evaluate
+from ragas.metrics import faithfulness, answer_relevancy, context_precision
+from langchain_openai import AzureChatOpenAI, AzureOpenAIEmbeddings
 
 logger = get_logger(__name__)
 
 # The dedicated judge deployment name from .env
-JUDGE_DEPLOYMENT = os.getenv("AZURE_OPENAI_JUDGE_DEPLOYMENT_NAME", "gpt-4o")
+JUDGE_DEPLOYMENT = os.getenv("AZURE_OPENAI_JUDGE_DEPLOYMENT_NAME")
 
-def get_judge_client() -> AzureOpenAI:
-    """Initialize the Azure OpenAI client for the Judge model."""
+def get_ragas_dataset() -> list[dict]:
+    """Load the pre-generated RAGAS ground-truth dataset if it exists."""
+    path = "evaluation/ragas_dataset.json"
+    if os.path.exists(path):
+        try:
+            with open(path, "r") as f:
+                data = json.load(f)
+            return data.get("testset", [])
+        except Exception as e:
+            logger.error(f"Failed to load {path}: {e}")
+    return []
+
+# ============================================================
+# 1. LLM-AS-A-JUDGE METRICS (OFFICIAL RAGAS PACKAGE)
+# ============================================================
+
+def evaluate_with_ragas(question: str, answer: str, contexts: list[str]) -> dict:
+    """
+    Evaluates a generated answer using the official RAGAS library.
+    If the question matches one in the evaluation/ragas_dataset.json,
+    it uses the ground truth to calculate Context Precision.
+    Otherwise, it calculates Faithfulness and Answer Relevancy only.
+    """
     if not AZURE_OPENAI_API_KEY or not AZURE_OPENAI_ENDPOINT:
         raise ValueError("Missing Azure OpenAI credentials in .env")
 
-    return AzureOpenAI(
-        api_key=AZURE_OPENAI_API_KEY,
-        api_version=AZURE_OPENAI_API_VERSION,
+    # 1. Initialize LangChain Wrappers for Azure OpenAI
+    judge_llm = AzureChatOpenAI(
         azure_endpoint=AZURE_OPENAI_ENDPOINT,
+        openai_api_version=AZURE_OPENAI_API_VERSION,
+        openai_api_key=AZURE_OPENAI_API_KEY,
+        azure_deployment=JUDGE_DEPLOYMENT,
+        temperature=0.0
+    )
+    
+    embeddings = AzureOpenAIEmbeddings(
+        azure_endpoint=AZURE_OPENAI_EMBEDDING_ENDPOINT,
+        openai_api_version=AZURE_OPENAI_EMBEDDING_API_VERSION,
+        openai_api_key=AZURE_OPENAI_EMBEDDING_KEY,
+        azure_deployment=AZURE_OPENAI_EMBEDDING_DEPLOYMENT_NAME,
     )
 
-# ============================================================
-# 1. LLM-AS-A-JUDGE METRICS (RAGAS INSPIRED)
-# ============================================================
+    # 2. Check if we have a ground truth for this question
+    testset = get_ragas_dataset()
+    ground_truth = ""
+    for test in testset:
+        if test.get("question", "").strip().lower() == question.strip().lower():
+            ground_truth = test.get("ground_truth", "")
+            break
 
-def evaluate_faithfulness(question: str, context: str, answer: str) -> tuple[float, str]:
-    """
-    Check if the answer is completely backed by the context.
-    Returns: (score 0.0 to 1.0, reasoning)
-    """
-    client = get_judge_client()
-    prompt = f"""
-You are an expert clinical evaluator. Your task is to check if the generated answer is faithful to the provided context.
-If the answer contains any claims not supported by the context, penalize the score.
+    # 3. Format as HuggingFace Dataset
+    # Ragas requires 'contexts' to be a list of lists of strings
+    data_samples = {
+        "question": [question],
+        "answer": [answer],
+        "contexts": [contexts],
+    }
+    
+    # Decide which metrics to run based on whether we have ground truth
+    metrics_to_run = [faithfulness, answer_relevancy]
+    if ground_truth:
+        data_samples["ground_truth"] = [ground_truth]
+        metrics_to_run.append(context_precision)
+        logger.info("Found ground truth for question. Running full RAGAS suite including context_precision.")
+    else:
+        logger.info("No ground truth found for question. Running RAGAS without context_precision.")
 
-Question: {question}
-Context: {context}
-Answer: {answer}
+    dataset = Dataset.from_dict(data_samples)
 
-Respond ONLY with a valid JSON object containing exactly two keys:
-- "score": a float between 0.0 and 1.0 (1.0 = fully faithful, 0.0 = completely hallucinated).
-- "reasoning": a brief explanation of why this score was given.
-"""
+    # 4. Run the official evaluation suite
     try:
-        response = client.chat.completions.create(
-            model=JUDGE_DEPLOYMENT,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.0,
-            response_format={"type": "json_object"}
+        result = evaluate(
+            dataset,
+            metrics=metrics_to_run,
+            llm=judge_llm,
+            embeddings=embeddings,
+            raise_exceptions=False
         )
-        result = json.loads(response.choices[0].message.content)
-        return float(result.get("score", 0.0)), result.get("reasoning", "No reasoning provided.")
+        return dict(result)
     except Exception as e:
-        logger.error(f"Error evaluating faithfulness: {e}")
-        return 0.0, f"Error: {e}"
-
-def evaluate_relevancy(question: str, answer: str) -> tuple[float, str]:
-    """
-    Check if the answer directly addresses the user's question.
-    Returns: (score 0.0 to 1.0, reasoning)
-    """
-    client = get_judge_client()
-    prompt = f"""
-You are an expert clinical evaluator. Your task is to check if the generated answer directly addresses the question asked.
-Penalize answers that are off-topic, evasive, or overly verbose with irrelevant information.
-
-Question: {question}
-Answer: {answer}
-
-Respond ONLY with a valid JSON object containing exactly two keys:
-- "score": a float between 0.0 and 1.0 (1.0 = perfectly relevant, 0.0 = completely irrelevant).
-- "reasoning": a brief explanation of why this score was given.
-"""
-    try:
-        response = client.chat.completions.create(
-            model=JUDGE_DEPLOYMENT,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.0,
-            response_format={"type": "json_object"}
-        )
-        result = json.loads(response.choices[0].message.content)
-        return float(result.get("score", 0.0)), result.get("reasoning", "No reasoning provided.")
-    except Exception as e:
-        logger.error(f"Error evaluating relevancy: {e}")
-        return 0.0, f"Error: {e}"
-
-def evaluate_context_precision(question: str, context: str) -> tuple[float, str]:
-    """
-    Check if the retrieved context contains the information needed to answer the question.
-    Returns: (score 0.0 to 1.0, reasoning)
-    """
-    client = get_judge_client()
-    prompt = f"""
-You are an expert clinical evaluator. Your task is to evaluate the precision of the retrieved context.
-Does the context actually contain the information necessary to answer the question?
-
-Question: {question}
-Context: {context}
-
-Respond ONLY with a valid JSON object containing exactly two keys:
-- "score": a float between 0.0 and 1.0 (1.0 = contains exact answer, 0.5 = partial/noisy, 0.0 = completely useless).
-- "reasoning": a brief explanation of why this score was given.
-"""
-    try:
-        response = client.chat.completions.create(
-            model=JUDGE_DEPLOYMENT,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.0,
-            response_format={"type": "json_object"}
-        )
-        result = json.loads(response.choices[0].message.content)
-        return float(result.get("score", 0.0)), result.get("reasoning", "No reasoning provided.")
-    except Exception as e:
-        logger.error(f"Error evaluating context precision: {e}")
-        return 0.0, f"Error: {e}"
-
+        logger.error(f"RAGAS Evaluation failed: {e}")
+        return {}
 
 # ============================================================
 # 2. CODE-BASED METRICS (MATHEMATICAL)

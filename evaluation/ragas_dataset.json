@@ -1,0 +1,588 @@
+{
+    "testset": [
+        {
+            "question_id": "DISEASE_PROFILE-01",
+            "category": "disease_profile",
+            "question": "What should be considered when discharging a patient with type 1 diabetes mellitus?",
+            "ground_truth": "The discharge summary for type 1 diabetes mellitus recommends lisinopril, empagliflozin, and furosemide, with creatinine and eGFR monitoring. Follow-up with cardiology and internal medicine is advised. No guideline or literature in the corpus adds further recommendations for this profile.",
+            "reference_doc_ids": [
+                "DS-001"
+            ],
+            "reference_contexts": [
+                "Patient: 36F with type 1 diabetes mellitus.\nDischarged on lisinopril 10 mg daily, empagliflozin 10 mg daily, furosemide 40 mg daily.\nCreatinine at discharge: 2.0 mg/dL. eGFR: 84 mL/min.\nAdvised follow-up with cardiology in 4 weeks and internal medicine in 2 weeks."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval and synthesis for a single disease profile."
+        },
+        {
+            "question_id": "DISEASE_PROFILE-02",
+            "category": "disease_profile",
+            "question": "What are the discharge considerations for heart failure with reduced ejection fraction?",
+            "ground_truth": "The discharge summary for HFrEF includes albuterol, lisinopril, and empagliflozin, with creatinine and eGFR monitoring. Follow-up with internal medicine and nephrology is advised. No additional discharge instructions are present in the corpus.",
+            "reference_doc_ids": [
+                "DS-002"
+            ],
+            "reference_contexts": [
+                "Patient: 49M with heart failure with reduced ejection fraction.\nDischarged on albuterol 2 puffs q4h PRN, lisinopril 10 mg daily, empagliflozin 10 mg daily.\nCreatinine at discharge: 1.5 mg/dL. eGFR: 72 mL/min.\nAdvised follow-up with internal medicine in 1 week and nephrology in 3 weeks."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval for a single cardiac discharge profile."
+        },
+        {
+            "question_id": "DISEASE_PROFILE-03",
+            "category": "disease_profile",
+            "question": "What should be considered when discharging a patient after a COPD exacerbation?",
+            "ground_truth": "The discharge summary for COPD exacerbation recommends lisinopril, warfarin, and carvedilol, with creatinine and eGFR monitoring. Follow-up with nephrology and primary care is advised. No further discharge instructions are present.",
+            "reference_doc_ids": [
+                "DS-003"
+            ],
+            "reference_contexts": [
+                "Patient: 52M with COPD exacerbation.\nDischarged on lisinopril 10 mg daily, warfarin 5 mg daily, carvedilol 6.25 mg BID.\nCreatinine at discharge: 0.9 mg/dL. eGFR: 27 mL/min.\nAdvised follow-up with nephrology in 3 weeks and primary care in 2 weeks."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval for pulmonary discharge profile."
+        },
+        {
+            "question_id": "DISEASE_PROFILE-04",
+            "category": "disease_profile",
+            "question": "What are the discharge instructions for a patient with type 2 diabetes mellitus and obesity?",
+            "ground_truth": "The discharge summary for type 2 diabetes mellitus and obesity includes carvedilol, albuterol, and insulin glargine. Creatinine and eGFR are monitored. Follow-up with internal medicine and endocrinology is advised.",
+            "reference_doc_ids": [
+                "DS-004"
+            ],
+            "reference_contexts": [
+                "Patient: 42F with type 2 diabetes mellitus, obesity.\nDischarged on carvedilol 6.25 mg BID, albuterol 2 puffs q4h PRN, insulin glargine 20 units nightly.\nCreatinine at discharge: 2.1 mg/dL. eGFR: 61 mL/min.\nAdvised follow-up with internal medicine in 1 week and endocrinology in 2 weeks."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval for a metabolic discharge profile."
+        },
+        {
+            "question_id": "DISEASE_PROFILE-05",
+            "category": "disease_profile",
+            "question": "What should be considered when discharging a patient with CKD stage 4 and hypertension?",
+            "ground_truth": "The discharge summary for CKD stage 4 and hypertension includes carvedilol, apixaban, and insulin glargine. Creatinine and eGFR are monitored. Follow-up with endocrinology and nephrology is advised.",
+            "reference_doc_ids": [
+                "DS-005"
+            ],
+            "reference_contexts": [
+                "Patient: 40M with CKD stage 4, hypertension.\nDischarged on carvedilol 6.25 mg BID, apixaban 5 mg BID, insulin glargine 20 units nightly.\nCreatinine at discharge: 1.5 mg/dL. eGFR: 61 mL/min.\nAdvised follow-up with endocrinology in 3 weeks and nephrology in 3 weeks."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval for a renal discharge profile."
+        },
+        {
+            "question_id": "DISEASE_PROFILE-06",
+            "category": "disease_profile",
+            "question": "What are the discharge considerations for a patient with type 2 diabetes mellitus, heart failure with reduced ejection fraction, and CKD stage 3?",
+            "ground_truth": "The discharge summary for this combination includes apixaban, insulin glargine, and carvedilol. Creatinine and eGFR are monitored. Follow-up with primary care and nephrology is advised.",
+            "reference_doc_ids": [
+                "DS-007"
+            ],
+            "reference_contexts": [
+                "Patient: 86F with type 2 diabetes mellitus, heart failure with reduced ejection fraction, CKD stage 3.\nDischarged on apixaban 5 mg BID, insulin glargine 20 units nightly, carvedilol 6.25 mg BID.\nCreatinine at discharge: 1.1 mg/dL. eGFR: 87 mL/min.\nAdvised follow-up with primary care in 2 weeks and nephrology in 5 weeks."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval for a complex multi-morbidity discharge profile."
+        },
+        {
+            "question_id": "DISEASE_PROFILE-07",
+            "category": "disease_profile",
+            "question": "What should be considered when discharging a patient with community-acquired pneumonia?",
+            "ground_truth": "The discharge summary for community-acquired pneumonia includes furosemide, lisinopril, and albuterol. Creatinine and eGFR are monitored. Follow-up with pulmonology and internal medicine is advised.",
+            "reference_doc_ids": [
+                "DS-008"
+            ],
+            "reference_contexts": [
+                "Patient: 44F with community-acquired pneumonia.\nDischarged on furosemide 40 mg daily, lisinopril 10 mg daily, albuterol 2 puffs q4h PRN.\nCreatinine at discharge: 1.7 mg/dL. eGFR: 89 mL/min.\nAdvised follow-up with pulmonology in 4 weeks and internal medicine in 4 weeks."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval for an infectious discharge profile."
+        },
+        {
+            "question_id": "DISEASE_PROFILE-08",
+            "category": "disease_profile",
+            "question": "What are the discharge instructions for a patient with rheumatoid arthritis?",
+            "ground_truth": "The discharge summary for rheumatoid arthritis includes prednisone, lisinopril, and metformin. Creatinine and eGFR are monitored. Follow-up with endocrinology and cardiology is advised.",
+            "reference_doc_ids": [
+                "DS-015"
+            ],
+            "reference_contexts": [
+                "Patient: 70M with rheumatoid arthritis.\nDischarged on prednisone 20 mg daily, lisinopril 10 mg daily, metformin 500 mg BID.\nCreatinine at discharge: 0.9 mg/dL. eGFR: 22 mL/min.\nAdvised follow-up with endocrinology in 1 week and cardiology in 4 weeks."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval for a rheumatologic discharge profile."
+        },
+        {
+            "question_id": "DISEASE_PROFILE-09",
+            "category": "disease_profile",
+            "question": "What should be considered when discharging a patient with atrial fibrillation and coronary artery disease?",
+            "ground_truth": "The discharge summary for atrial fibrillation and coronary artery disease includes apixaban, metformin, and empagliflozin. Creatinine and eGFR are monitored. Follow-up with nephrology and pulmonology is advised.",
+            "reference_doc_ids": [
+                "DS-020"
+            ],
+            "reference_contexts": [
+                "Patient: 38M with atrial fibrillation, coronary artery disease.\nDischarged on apixaban 5 mg BID, metformin 500 mg BID, empagliflozin 10 mg daily.\nCreatinine at discharge: 1.2 mg/dL. eGFR: 73 mL/min.\nAdvised follow-up with nephrology in 4 weeks and pulmonology in 3 weeks."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval for a cardiac discharge profile with arrhythmia and CAD."
+        },
+        {
+            "question_id": "DISEASE_PROFILE-10",
+            "category": "disease_profile",
+            "question": "What are the discharge considerations for heart failure with preserved ejection fraction?",
+            "ground_truth": "The discharge summary for HFpEF includes empagliflozin, lisinopril, and apixaban. Creatinine and eGFR are monitored. Follow-up with endocrinology and internal medicine is advised.",
+            "reference_doc_ids": [
+                "DS-022"
+            ],
+            "reference_contexts": [
+                "Patient: 39M with heart failure with preserved ejection fraction.\nDischarged on empagliflozin 10 mg daily, lisinopril 10 mg daily, apixaban 5 mg BID.\nCreatinine at discharge: 1.0 mg/dL. eGFR: 87 mL/min.\nAdvised follow-up with endocrinology in 1 week and internal medicine in 6 weeks."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval for a cardiac discharge profile with preserved EF."
+        },
+        {
+            "question_id": "GUIDELINE_TOPIC-01",
+            "category": "guideline_topic",
+            "question": "What does the internal medicine guideline recommend for type 2 diabetes mellitus with CKD?",
+            "ground_truth": "The internal medicine guideline states that metformin may be continued in patients with eGFR above 30 mL/min/1.73m2, but renal function should be monitored periodically.",
+            "reference_doc_ids": [
+                "GL-003"
+            ],
+            "reference_contexts": [
+                "Metformin may be continued in patients with eGFR above 30 mL/min/1.73m2, but renal function should be monitored periodically."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval of guideline recommendation for diabetes and CKD."
+        },
+        {
+            "question_id": "GUIDELINE_TOPIC-02",
+            "category": "guideline_topic",
+            "question": "What is the current cardiology guideline for heart failure with reduced ejection fraction?",
+            "ground_truth": "The cardiology guideline recommends guideline-directed medical therapy for HFrEF, including beta-blockers, ACE inhibitors or ARNI, mineralocorticoid receptor antagonists, and SGLT2 inhibitors.",
+            "reference_doc_ids": [
+                "GL-013"
+            ],
+            "reference_contexts": [
+                "Guideline-directed medical therapy for HFrEF includes beta-blockers, ACE inhibitors or ARNI, mineralocorticoid receptor antagonists, and SGLT2 inhibitors."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval of guideline for HFrEF."
+        },
+        {
+            "question_id": "GUIDELINE_TOPIC-03",
+            "category": "guideline_topic",
+            "question": "What does the primary care guideline recommend for heart failure with preserved ejection fraction?",
+            "ground_truth": "The primary care guideline recommends SGLT2 inhibitors in HFpEF to reduce hospitalization for heart failure, regardless of diabetes status.",
+            "reference_doc_ids": [
+                "GL-017"
+            ],
+            "reference_contexts": [
+                "SGLT2 inhibitors are recommended in HFpEF to reduce hospitalization for heart failure, regardless of diabetes status."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval of guideline for HFpEF."
+        },
+        {
+            "question_id": "GUIDELINE_TOPIC-04",
+            "category": "guideline_topic",
+            "question": "What is the current internal medicine guideline for CKD staging?",
+            "ground_truth": "The internal medicine guideline states that CKD staging is based on eGFR and albuminuria category; eGFR 30-59 corresponds to CKD stage 3.",
+            "reference_doc_ids": [
+                "GL-026"
+            ],
+            "reference_contexts": [
+                "CKD staging is based on eGFR and albuminuria category; eGFR 30-59 corresponds to CKD stage 3."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval of guideline for CKD staging."
+        },
+        {
+            "question_id": "GUIDELINE_TOPIC-05",
+            "category": "guideline_topic",
+            "question": "What does the pulmonology guideline recommend for COPD exacerbation?",
+            "ground_truth": "The pulmonology guideline recommends short-acting bronchodilators, systemic corticosteroids, and antibiotics when indicated for COPD exacerbations.",
+            "reference_doc_ids": [
+                "GL-036"
+            ],
+            "reference_contexts": [
+                "Short-acting bronchodilators, systemic corticosteroids, and antibiotics when indicated are recommended for COPD exacerbations."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval of guideline for COPD exacerbation."
+        },
+        {
+            "question_id": "GUIDELINE_TOPIC-06",
+            "category": "guideline_topic",
+            "question": "What is the endocrinology guideline for type 1 diabetes mellitus?",
+            "ground_truth": "The endocrinology guideline states that type 1 diabetes management requires insulin therapy; metformin is not a substitute for insulin in type 1 diabetes.",
+            "reference_doc_ids": [
+                "GL-041"
+            ],
+            "reference_contexts": [
+                "Type 1 diabetes management requires insulin therapy; metformin is not a substitute for insulin in type 1 diabetes."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests retrieval of guideline for type 1 diabetes."
+        },
+        {
+            "question_id": "TRAP_SIMILAR_DISEASE-01",
+            "category": "trap_type",
+            "question": "What is the recommended therapy for heart failure with reduced ejection fraction?",
+            "ground_truth": "Guideline-directed medical therapy for HFrEF includes beta-blockers, ACE inhibitors or ARNI, mineralocorticoid receptor antagonists, and SGLT2 inhibitors.",
+            "reference_doc_ids": [
+                "GL-013"
+            ],
+            "reference_contexts": [
+                "Guideline-directed medical therapy for HFrEF includes beta-blockers, ACE inhibitors or ARNI, mineralocorticoid receptor antagonists, and SGLT2 inhibitors."
+            ],
+            "distractor_doc_ids": [
+                "GL-019"
+            ],
+            "expected_confidence": "medium",
+            "notes": "Tests if retriever confuses HFrEF with HFpEF (similar disease trap)."
+        },
+        {
+            "question_id": "TRAP_SIMILAR_DISEASE-02",
+            "category": "trap_type",
+            "question": "What is the guideline for heart failure with preserved ejection fraction?",
+            "ground_truth": "SGLT2 inhibitors are recommended in HFpEF to reduce hospitalization for heart failure, regardless of diabetes status.",
+            "reference_doc_ids": [
+                "GL-019"
+            ],
+            "reference_contexts": [
+                "SGLT2 inhibitors are recommended in HFpEF to reduce hospitalization for heart failure, regardless of diabetes status."
+            ],
+            "distractor_doc_ids": [
+                "GL-013"
+            ],
+            "expected_confidence": "medium",
+            "notes": "Tests if retriever confuses HFpEF with HFrEF (similar disease trap)."
+        },
+        {
+            "question_id": "TRAP_SIMILAR_MEDICATION-01",
+            "category": "trap_type",
+            "question": "Is metformin recommended for type 1 diabetes mellitus?",
+            "ground_truth": "Type 1 diabetes management requires insulin therapy; metformin is not a substitute for insulin in type 1 diabetes.",
+            "reference_doc_ids": [
+                "GL-041"
+            ],
+            "reference_contexts": [
+                "Type 1 diabetes management requires insulin therapy; metformin is not a substitute for insulin in type 1 diabetes."
+            ],
+            "distractor_doc_ids": [
+                "GL-003"
+            ],
+            "expected_confidence": "medium",
+            "notes": "Tests if retriever confuses metformin use in type 1 vs type 2 diabetes (similar medication trap)."
+        },
+        {
+            "question_id": "TRAP_SIMILAR_MEDICATION-02",
+            "category": "trap_type",
+            "question": "Is metformin safe in patients with CKD and type 2 diabetes?",
+            "ground_truth": "Metformin may be continued in patients with eGFR above 30 mL/min/1.73m2, but renal function should be monitored periodically.",
+            "reference_doc_ids": [
+                "GL-003"
+            ],
+            "reference_contexts": [
+                "Metformin may be continued in patients with eGFR above 30 mL/min/1.73m2, but renal function should be monitored periodically."
+            ],
+            "distractor_doc_ids": [
+                "GL-041"
+            ],
+            "expected_confidence": "medium",
+            "notes": "Tests if retriever confuses metformin guidance for type 1 vs type 2 diabetes (similar medication trap)."
+        },
+        {
+            "question_id": "TRAP_OVERLAPPING_CONCEPTS-01",
+            "category": "trap_type",
+            "question": "What is the recommended therapy for COPD exacerbation?",
+            "ground_truth": "Short-acting bronchodilators, systemic corticosteroids, and antibiotics when indicated are recommended for COPD exacerbations.",
+            "reference_doc_ids": [
+                "GL-036"
+            ],
+            "reference_contexts": [
+                "Short-acting bronchodilators, systemic corticosteroids, and antibiotics when indicated are recommended for COPD exacerbations."
+            ],
+            "distractor_doc_ids": [
+                "GL-038"
+            ],
+            "expected_confidence": "medium",
+            "notes": "Tests if retriever confuses guideline for COPD exacerbation with other pulmonary conditions (overlapping concepts trap)."
+        },
+        {
+            "question_id": "TRAP_OVERLAPPING_CONCEPTS-02",
+            "category": "trap_type",
+            "question": "What is the guideline for CKD staging?",
+            "ground_truth": "CKD staging is based on eGFR and albuminuria category; eGFR 30-59 corresponds to CKD stage 3.",
+            "reference_doc_ids": [
+                "GL-026"
+            ],
+            "reference_contexts": [
+                "CKD staging is based on eGFR and albuminuria category; eGFR 30-59 corresponds to CKD stage 3."
+            ],
+            "distractor_doc_ids": [
+                "GL-055"
+            ],
+            "expected_confidence": "medium",
+            "notes": "Tests if retriever confuses current CKD staging with earlier systems (overlapping concepts trap)."
+        },
+        {
+            "question_id": "TRAP_BURIED_ANSWER-01",
+            "category": "trap_type",
+            "question": "What is the evidence for SGLT2 inhibitors in HFpEF?",
+            "ground_truth": "In a randomized controlled trial, SGLT2 inhibitor therapy reduced the composite endpoint of cardiovascular death and heart failure hospitalization in patients with HFpEF.",
+            "reference_doc_ids": [
+                "PM-001"
+            ],
+            "reference_contexts": [
+                "In a randomized controlled trial, SGLT2 inhibitor therapy reduced the composite endpoint of cardiovascular death and heart failure hospitalization in patients with HFpEF."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "medium",
+            "notes": "Tests retrieval of a buried answer in a long literature abstract."
+        },
+        {
+            "question_id": "TRAP_BURIED_ANSWER-02",
+            "category": "trap_type",
+            "question": "What is the evidence for short versus extended corticosteroid courses in COPD exacerbations?",
+            "ground_truth": "A multicenter trial compared short versus extended corticosteroid courses for COPD exacerbations and found no difference in treatment failure rates at 30 days.",
+            "reference_doc_ids": [
+                "PM-005"
+            ],
+            "reference_contexts": [
+                "A multicenter trial compared short versus extended corticosteroid courses for COPD exacerbations and found no difference in treatment failure rates at 30 days."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "medium",
+            "notes": "Tests retrieval of a buried answer in a long literature abstract."
+        },
+        {
+            "question_id": "TRAP_CONFLICTING_EVIDENCE-01",
+            "category": "trap_type",
+            "question": "Is metformin contraindicated in CKD stage 3?",
+            "ground_truth": "Metformin may be continued in patients with eGFR above 30 mL/min/1.73m2, but renal function should be monitored periodically. The contraindication applies only if eGFR is below 30.",
+            "reference_doc_ids": [
+                "GL-003"
+            ],
+            "reference_contexts": [
+                "Metformin may be continued in patients with eGFR above 30 mL/min/1.73m2, but renal function should be monitored periodically."
+            ],
+            "distractor_doc_ids": [
+                "GL-049"
+            ],
+            "expected_confidence": "medium",
+            "notes": "Tests if retriever distinguishes conditional guidance (conflicting evidence trap)."
+        },
+        {
+            "question_id": "TRAP_CONFLICTING_EVIDENCE-02",
+            "category": "trap_type",
+            "question": "Should beta-blockers be avoided in decompensated heart failure?",
+            "ground_truth": "Beta-blockers were historically avoided in decompensated heart failure due to concerns about negative inotropy, but current guideline-directed medical therapy includes beta-blockers for HFrEF.",
+            "reference_doc_ids": [
+                "GL-013"
+            ],
+            "reference_contexts": [
+                "Guideline-directed medical therapy for HFrEF includes beta-blockers, ACE inhibitors or ARNI, mineralocorticoid receptor antagonists, and SGLT2 inhibitors."
+            ],
+            "distractor_doc_ids": [
+                "GL-051"
+            ],
+            "expected_confidence": "medium",
+            "notes": "Tests if retriever distinguishes historical vs current evidence (conflicting evidence trap)."
+        },
+        {
+            "question_id": "TRAP_OUTDATED_GUIDELINE-01",
+            "category": "trap_type",
+            "question": "What is the current recommendation for corticosteroid duration in COPD exacerbation?",
+            "ground_truth": "Short-acting bronchodilators, systemic corticosteroids, and antibiotics when indicated are recommended for COPD exacerbations. Routine prolonged oral corticosteroid courses of over 14 days were previously standard but are now outdated.",
+            "reference_doc_ids": [
+                "GL-036"
+            ],
+            "reference_contexts": [
+                "Short-acting bronchodilators, systemic corticosteroids, and antibiotics when indicated are recommended for COPD exacerbations."
+            ],
+            "distractor_doc_ids": [
+                "GL-057"
+            ],
+            "expected_confidence": "medium",
+            "notes": "Tests if retriever avoids outdated guideline (outdated guideline trap)."
+        },
+        {
+            "question_id": "TRAP_OUTDATED_GUIDELINE-02",
+            "category": "trap_type",
+            "question": "What is the current CKD staging system?",
+            "ground_truth": "CKD staging is based on eGFR and albuminuria category; eGFR 30-59 corresponds to CKD stage 3. Earlier staging systems relied on serum creatinine alone without albuminuria categories and are now outdated.",
+            "reference_doc_ids": [
+                "GL-026"
+            ],
+            "reference_contexts": [
+                "CKD staging is based on eGFR and albuminuria category; eGFR 30-59 corresponds to CKD stage 3."
+            ],
+            "distractor_doc_ids": [
+                "GL-055"
+            ],
+            "expected_confidence": "medium",
+            "notes": "Tests if retriever avoids outdated CKD staging (outdated guideline trap)."
+        },
+        {
+            "question_id": "TRAP_DUPLICATE_CHUNK-01",
+            "category": "trap_type",
+            "question": "What is the guideline for metformin use in CKD and type 2 diabetes?",
+            "ground_truth": "Metformin may be continued in patients with eGFR above 30 mL/min/1.73m2, but renal function should be monitored periodically. Multiple guidelines repeat this recommendation, but duplicates should not be counted as independent evidence.",
+            "reference_doc_ids": [
+                "GL-003",
+                "GL-006"
+            ],
+            "reference_contexts": [
+                "Metformin may be continued in patients with eGFR above 30 mL/min/1.73m2, but renal function should be monitored periodically.",
+                "Metformin may be continued in patients with eGFR above 30 mL/min/1.73m2, but renal function should be monitored periodically."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "medium",
+            "notes": "Tests if retriever avoids double-counting duplicate guideline chunks."
+        },
+        {
+            "question_id": "TRAP_DUPLICATE_CHUNK-02",
+            "category": "trap_type",
+            "question": "What is the guideline for CKD staging?",
+            "ground_truth": "CKD staging is based on eGFR and albuminuria category; eGFR 30-59 corresponds to CKD stage 3. Multiple guidelines repeat this, but duplicates should not be counted as independent evidence.",
+            "reference_doc_ids": [
+                "GL-026",
+                "GL-027"
+            ],
+            "reference_contexts": [
+                "CKD staging is based on eGFR and albuminuria category; eGFR 30-59 corresponds to CKD stage 3.",
+                "CKD staging is based on eGFR and albuminuria category; eGFR 30-59 corresponds to CKD stage 3."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "medium",
+            "notes": "Tests if retriever avoids double-counting duplicate guideline chunks."
+        },
+        {
+            "question_id": "REFUSAL-01",
+            "category": "refusal",
+            "question": "What is the recommended therapy for lupus nephritis?",
+            "ground_truth": "There is insufficient evidence in the dataset to answer this question. A good RAG system should refuse to answer rather than fabricate.",
+            "reference_doc_ids": [],
+            "reference_contexts": [],
+            "distractor_doc_ids": [],
+            "expected_confidence": "refuse_or_low",
+            "notes": "Tests refusal for a topic absent from the corpus."
+        },
+        {
+            "question_id": "REFUSAL-02",
+            "category": "refusal",
+            "question": "What is the guideline for management of hepatitis C?",
+            "ground_truth": "There is insufficient evidence in the dataset to answer this question. A good RAG system should refuse to answer rather than fabricate.",
+            "reference_doc_ids": [],
+            "reference_contexts": [],
+            "distractor_doc_ids": [],
+            "expected_confidence": "refuse_or_low",
+            "notes": "Tests refusal for a topic absent from the corpus."
+        },
+        {
+            "question_id": "REFUSAL-03",
+            "category": "refusal",
+            "question": "What is the recommended therapy for idiopathic pulmonary fibrosis?",
+            "ground_truth": "There is insufficient evidence in the dataset to answer this question. A good RAG system should refuse to answer rather than fabricate.",
+            "reference_doc_ids": [],
+            "reference_contexts": [],
+            "distractor_doc_ids": [],
+            "expected_confidence": "refuse_or_low",
+            "notes": "Tests refusal for a topic absent from the corpus."
+        },
+        {
+            "question_id": "REFUSAL-04",
+            "category": "refusal",
+            "question": "What is the guideline for management of acute pancreatitis?",
+            "ground_truth": "There is insufficient evidence in the dataset to answer this question. A good RAG system should refuse to answer rather than fabricate.",
+            "reference_doc_ids": [],
+            "reference_contexts": [],
+            "distractor_doc_ids": [],
+            "expected_confidence": "refuse_or_low",
+            "notes": "Tests refusal for a topic absent from the corpus."
+        },
+        {
+            "question_id": "MULTI_CORPUS_SYNTHESIS-01",
+            "category": "multi_corpus_synthesis",
+            "question": "What is the evidence and guideline for SGLT2 inhibitor use in HFpEF?",
+            "ground_truth": "Guidelines recommend SGLT2 inhibitors in HFpEF to reduce hospitalization for heart failure, regardless of diabetes status. Literature supports this, showing SGLT2 inhibitor therapy reduced cardiovascular death and heart failure hospitalization in patients with HFpEF.",
+            "reference_doc_ids": [
+                "GL-019",
+                "PM-001"
+            ],
+            "reference_contexts": [
+                "SGLT2 inhibitors are recommended in HFpEF to reduce hospitalization for heart failure, regardless of diabetes status.",
+                "In a randomized controlled trial, SGLT2 inhibitor therapy reduced the composite endpoint of cardiovascular death and heart failure hospitalization in patients with HFpEF."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests synthesis across guideline and literature for HFpEF."
+        },
+        {
+            "question_id": "MULTI_CORPUS_SYNTHESIS-02",
+            "category": "multi_corpus_synthesis",
+            "question": "What is the evidence and guideline for metformin use in CKD and type 2 diabetes?",
+            "ground_truth": "Guidelines state metformin may be continued in patients with eGFR above 30 mL/min/1.73m2, with periodic renal monitoring. Literature supports this, showing metformin use was not associated with increased lactic acidosis risk in patients with eGFR above 30.",
+            "reference_doc_ids": [
+                "GL-003",
+                "PM-011"
+            ],
+            "reference_contexts": [
+                "Metformin may be continued in patients with eGFR above 30 mL/min/1.73m2, but renal function should be monitored periodically.",
+                "Recent studies suggest careful renal monitoring in diabetic patients with heart failure receiving metformin, especially in those with moderate chronic kidney disease. Metformin use was not associated with increased lactic acidosis risk in patients with eGFR above 30."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests synthesis across guideline and literature for metformin in CKD."
+        },
+        {
+            "question_id": "MULTI_CORPUS_SYNTHESIS-03",
+            "category": "multi_corpus_synthesis",
+            "question": "What is the evidence and guideline for direct oral anticoagulants in atrial fibrillation with coronary artery disease?",
+            "ground_truth": "Literature demonstrates that direct oral anticoagulants have comparable efficacy to warfarin for stroke prevention in patients with atrial fibrillation and concurrent coronary artery disease. No guideline in the corpus contradicts this.",
+            "reference_doc_ids": [
+                "PM-022"
+            ],
+            "reference_contexts": [
+                "Direct oral anticoagulants demonstrated comparable efficacy to warfarin for stroke prevention in patients with atrial fibrillation and concurrent coronary artery disease."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests synthesis across literature for AFib and CAD."
+        },
+        {
+            "question_id": "MULTI_CORPUS_SYNTHESIS-04",
+            "category": "multi_corpus_synthesis",
+            "question": "What is the evidence and guideline for corticosteroid duration in COPD exacerbation?",
+            "ground_truth": "Guidelines recommend short-acting bronchodilators, systemic corticosteroids, and antibiotics when indicated for COPD exacerbations. Literature shows no difference in treatment failure rates between short and extended corticosteroid courses.",
+            "reference_doc_ids": [
+                "GL-036",
+                "PM-005"
+            ],
+            "reference_contexts": [
+                "Short-acting bronchodilators, systemic corticosteroids, and antibiotics when indicated are recommended for COPD exacerbations.",
+                "A multicenter trial compared short versus extended corticosteroid courses for COPD exacerbations and found no difference in treatment failure rates at 30 days."
+            ],
+            "distractor_doc_ids": [],
+            "expected_confidence": "high",
+            "notes": "Tests synthesis across guideline and literature for COPD exacerbation."
+        }
+    ]
+}
